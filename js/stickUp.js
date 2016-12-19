@@ -78,12 +78,12 @@ function($) {
 						if(varscroll > testView){
 							$('.'+itemClass).removeClass(itemHover);
 							$('.'+itemClass+':eq('+i+')').addClass(itemHover);
-						} else if(varscroll < 50){
+						} else if(varscroll < 100){
 							$('.'+itemClass).removeClass(itemHover);
 							$('.'+itemClass+':eq(0)').addClass(itemHover);
 						}
 					}
-					if(scrollDir == 'down' && varscroll > contentTop[i]-50 && varscroll < contentTop[i]+50) {
+					if(scrollDir == 'down' && varscroll > contentTop[i] - 100 && varscroll < contentTop[i] + 100) {
 						$('.'+itemClass).removeClass(itemHover);
 						$('.'+itemClass+':eq('+i+')').addClass(itemHover);
 					}
