@@ -5,32 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Portifolio</title>
-
   <!-- Bootstrap & Snippet plugin core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
-  <link href="stickup.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-
-  <!-- ******************** -->
-  <!--
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  -->
-  <!-- ******************** -->
-
-  <!-- link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="js/jquery-2.2.0.js"></script -->
-
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300" rel="stylesheet" type="text/css">
 </head>
 <body>
   <div class="wrapper" id="wrapper">
     <header>
-      <div class="banner row" style="width: 1280px; height: 593px; background-image: url(images/city.png); background-attachment: fixed; "></div>
+      <div class="banner row" style="width: 1280px; height: 594px; background-image: url(images/city.png); background-attachment: fixed; "></div>
       <div class="bannerText container">
         <h1>I'm Hyalen Moreira</h1>
         <h2>Design &amp; Build Beautiful Crafted Web Experiences</h2>
@@ -39,7 +23,7 @@
         <div class="navbar-wrapper stuckMenu" style="position: relative; top: 0px;">
           <div class="container">
             <div class="navwrapper">
-              <div id="hyalen" class="navbar navbar-inverse navbar-static-top">
+              <div class="navbar navbar-inverse navbar-static-top">
                 <div class="container">
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -62,7 +46,7 @@
                     <!-- ul class="nav navbar-nav navbar-right">
                       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    </ul-->
+                    </ul -->
                   </div>
                 </div>
               </div>
@@ -152,13 +136,38 @@
 
     <!-- ### IMPORTANT ### stickUp javascript file -->
     <!-- ######################################### -->
-    <script src="js/stickUp.min.js"></script>
+    <script src="js/stickUp.js"></script>
     <!-- ######################################### -->
 
     <!-- ### IMPORTANT ### stickUp options in use -->
     <!-- ######################################## -->
 
     <script type="text/javascript">
+    /*
+        $(document).on('click', 'a', function(event){
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 500);
+        });
+        */
+
+      // Somth page scroll
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top - 60}, 1000);
+                return false;
+              }
+            }
+          });
+        });
+
       jQuery(function($) {
         $(document).ready( function() {
           $('.navbar-wrapper').stickUp({
@@ -176,6 +185,24 @@
                         topMargin: 'auto'
                       });
         });
+
+$( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
+  $( ".navbar-collapse" ).addClass( "hideClass" );
+});
+
+
+$( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
+  $( ".navbar-collapse" ).addClass( "collapse" );
+});
+
+$( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
+  $( ".navbar-collapse" ).removeClass( "in" );
+});
+
+$( ".navbar-toggle" ).click(function() {
+  $( ".navbar-collapse" ).removeClass( "hideClass" );
+});
+
       });
     </script>
     <!-- ######################################## -->
