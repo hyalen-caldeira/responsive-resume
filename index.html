@@ -3,18 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Portifolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Hyalen</title>
   <!-- Bootstrap & Snippet plugin core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300" rel="stylesheet" type="text/css">
 </head>
-<body>
-  <div class="wrapper" id="wrapper">
+<body id="page-top">
+  <div class="wrapper">
     <header>
-      <div class="banner row" style="width: 1280px; height: 594px; background-image: url(images/city.png); background-attachment: fixed; "></div>
+      <div class="banner row" style="width: 1280px; height: 594px;">
+        <!--div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd" style="background-image: url(images/computer.jpg); background-attachment: fixed; opacity: 0.5; width: 100%; height: 100%;"-->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd hyalen img-responsive">
+
+        </div>
+      </div>
       <div class="bannerText container">
         <h1>I'm Hyalen Moreira</h1>
         <h2>Design &amp; Build Beautiful Crafted Web Experiences</h2>
@@ -35,7 +41,7 @@
                   </div>
                   <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                      <li class="menuItem active"><a href="#wrapper">Home</a></li>
+                      <li class="menuItem active"><a href="#page-top">Home</a></li>
                       <li class="menuItem"><a href="#aboutme">About</a></li>
                       <li class="menuItem"><a href="#technical">Skills</a></li>
                       <li class="menuItem"><a href="#experience">Experience</a></li>
@@ -83,22 +89,13 @@
           <h2>Technical Skills</h2>
           <p>I can say I'm quite goot at</p>
         </div>
-        <div class="row"></div>
       </div>
     </section>
     <section class="experience" id="experience">
-      <div class="container">
-        <div class="heading">
-          <h2>Working Experience</h2>
-          <p>My previous companies</p>
-        </div>
-        <div class="row"></div>
-      </div>
+      <div class="container"></div>
     </section>
     <section class="education" id="education">
-      <div class="container">
-        <div class="heading"></div>
-      </div>
+      <div class="container"></div>
     </section>
     <section class="portfolio" id="portfolio">
       <div class="container">
@@ -109,9 +106,36 @@
       <div class="container"></div>
     </section>
     <section class="contactDetails">
-      <div class="container"></div>
+      <div class="container">
+        <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
+          <h4>Contact Details</h4>
+          <p>
+            <i class="fa fa-map-marker fa-lg"></i> 15471 Ficus St, CA - USA
+          </p>
+          <p>
+            <i class="fa fa-mobile fa-lg"></i> +1 (909) 234 7007
+          </p>
+          <p>
+            <i class="fa fa-envelope-o"></i> hyalen.moreira@gmail.com
+          </p>
+          <p>
+            <i class="fa fa-link"></i> <a href="www.hyalen.us">www.hyalen.us</a>
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 conForm">
+          <h4>Shoot a message!</h4>
+          <div id="message"></div>
+          <form method="post" action="#" name="cform" id="cform">
+            <input name="name" id="name" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name...">
+            <input name="email" id="email" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 noMarr" placeholder="Your email...">
+            <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..."></textarea>
+            <input type="submit" id="submit" name="send" class="submitBnt" value="Send message">
+            <div id="simple-msg"></div>
+        </form>
+      </div>
+      </div>
     </section>
-    <footer ></footer>
+    <footer></footer>
   </div>
   <!-- script type="text/javascript">
     console.log("to aqui");
@@ -128,6 +152,7 @@
       });
     });
   </script -->
+
   <!-- Bootstrap & Plugins core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -139,72 +164,27 @@
     <script src="js/stickUp.js"></script>
     <!-- ######################################### -->
 
-    <!-- ### IMPORTANT ### stickUp options in use -->
+    <!-- ### IMPORTANT ### -->
+    <!-- ######################################## -->
+    <script src="js/helper.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/resumeBuilder.js"></script>
     <!-- ######################################## -->
 
     <script type="text/javascript">
-    /*
-        $(document).on('click', 'a', function(event){
-            event.preventDefault();
+    if (!$("#experience").find(".heading").length) {
+        $("#experience").display = "none";
+        console.log("Nao chou experience ...");
+    } else {
+        console.log("Achou ...");
+    }
 
-            $('html, body').animate({
-                scrollTop: $( $.attr(this, 'href') ).offset().top
-            }, 500);
-        });
-        */
-
-      // Somth page scroll
-        $(function() {
-          $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-              if (target.length) {
-                $('html,body').animate({
-                  scrollTop: target.offset().top - 60}, 1000);
-                return false;
-              }
-            }
-          });
-        });
-
-      jQuery(function($) {
-        $(document).ready( function() {
-          $('.navbar-wrapper').stickUp({
-                        parts: {
-                          0: 'wrapper',
-                          1: 'aboutme',
-                          2: 'technical',
-                          3: 'experience',
-                          4: 'education',
-                          5: 'portfolio',
-                          6: 'contact'
-                        },
-                        itemClass: 'menuItem',
-                        itemHover: 'active',
-                        topMargin: 'auto'
-                      });
-        });
-
-        $( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
-          $( ".navbar-collapse" ).addClass( "hideClass" );
-        });
-
-
-        $( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
-          $( ".navbar-collapse" ).addClass( "collapse" );
-        });
-
-        $( ".navbar.navbar-inverse.navbar-static-top a" ).click(function() {
-          $( ".navbar-collapse" ).removeClass( "in" );
-        });
-
-        $( ".navbar-toggle" ).click(function() {
-          $( ".navbar-collapse" ).removeClass( "hideClass" );
-        });
-
-      });
-    </script>
-    <!-- ######################################## -->
+    if (!$("#education").find(".heading").length) {
+        $("#education").display = "none";
+        console.log("Nao achou education...");
+    } else {
+        console.log("Achou ...");
+    }
+  </script>
 </body>
 </html>
