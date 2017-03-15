@@ -161,6 +161,24 @@ var education = {
             "title" : "Major in Information Technology with Emphasis on Software Engineering",
             "dateConclusion" : "2007",
             "description" : ""
+        },
+        {
+            "school" : "Java",
+            "title" : "Sun Certified Java Programmer",
+            "dateConclusion" : "2005",
+            "description" : ""
+        },
+        {
+            "school" : "Java",
+            "title" : "Sun Certified Web Component Developer",
+            "dateConclusion" : "2005",
+            "description" : ""
+        },
+        {
+            "school" : "SAP NetWeaver",
+            "title" : "SAP Certified Development Consultant SAP NetWeaver (focus Java)",
+            "dateConclusion" : "2005",
+            "description" : ""
         }
     ]/*,
     "otherCourses" : [
@@ -176,8 +194,6 @@ var education = {
 education.display = function() {
     if (!this.schools.length)
         return;
-
-    console.log("Olha eu aqui de novo");
 
     var frmtDateConclusion;
     var frmtSchool;
