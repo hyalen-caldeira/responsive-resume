@@ -49,7 +49,7 @@ var work = {
             "dateEnd" : "Dez, 2011",
             "description" : "Setup a System Integration for a Logistic and Transportation System using JAX-WS Web " +
             "services; <br>Developed a Training Management System (JEE/Web Platform) using the Struts Framework."
-        },
+        }/*,
         {
             "company" : "Infosys / British Petroleum / Devon Energy",
             "role" : "Software Engineer",
@@ -112,6 +112,7 @@ var work = {
             "different Adapters type (SOAP, RFC, XI, JDBC, File, JMS, FTP and Proxy); Security, admin and " +
             "performance activities for Process Integration; Configuration of SAP GRC NFe."
         }
+        */
     ]
 };
 

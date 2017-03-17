@@ -1,5 +1,5 @@
 var WORK_TITLE = "Work Experience";
-var WORK_TITLE_DESCRIPTION = "My previous associations";
+var WORK_TITLE_DESCRIPTION = "Some of my previous associations";
 
 var EDUCATION_TITLE = "Education & Diplomas";
 var EDUCATION_TITLE_DESCRIPTION = "What I have done in my academic career";
