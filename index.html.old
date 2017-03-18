@@ -15,63 +15,58 @@
 <body id="page-top">
   <div class="wrapper" id="banner">
     <header>
-    <!--banner start-->
-    <!--div class="banner row" id="banner" style="width: 1280px; height: 600px;">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd" style="height:100%">
+      <div class="banner row" style="width: 1280px; height: 594px;">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd">
 
-        <div class="bannerPart"> <img src="images/1.jpg" alt="" class="bgheight img-responsive"> </div>
-
+        </div>
       </div>
-    </div-->
-    <!--banner end-->
-    <section class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd">
-                        <div id="animazione" style="display: block; margin-top: 35%;">
-
-                        </div>
-                    </div>
-                </div>
+      <!--banner start>
+        <div class="banner row" id="banner">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd">
+              <img class="img-responsive" src="images/computer.jpg" alt="Chania">
             </div>
         </div>
-    </section>
-    <div class="bannerText container">
-      <h1>I'm Hyalen Moreira</h1>
-      <h2>Software Engineer &amp; Full Stack Web Developer</h2>
-    </div>
-    <!--menu start-->
-    <div class="menu">
-      <div class="navbar-wrapper stuckMenu" style="position: relative; top: 0px;">
-        <div class="container">
-          <div class="navwrapper">
-            <div class="navbar navbar-inverse navbar-static-top">
-              <div class="container">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                  <a class="navbar-brand" href="#">Menu</a> </div>
-                <div class="navbar-collapse collapse">
-                  <ul class="nav navbar-nav">
-                    <li class="menuItem active"><a href="#wrapper">Home</a></li>
-                    <li class="menuItem"><a href="#aboutme">About</a></li>
-                    <li class="menuItem"><a href="#technical">Skills</a></li>
-                    <li class="menuItem"><a href="#exprience">Experience</a></li>
-                    <li class="menuItem"><a href="#education">Education</a></li>
-                    <li class="menuItem"><a href="#protfolio">Portfolio</a></li>
-                    <li class="menuItem"><a href="#contact">Contact</a></li>
-                  </ul>
+        <banner end-->
+      <div class="bannerText container">
+        <h1>I'm Hyalen Moreira</h1>
+        <h2>Software Engineer &amp; Full Stack Web Developer</h2>
+      </div>
+      <div class="menu">
+        <div class="navbar-wrapper stuckMenu" style="position: relative; top: 0px;">
+          <div class="container">
+            <div class="navwrapper">
+              <div class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Menu</a>
+                  </div>
+                  <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                      <li class="menuItem active"><a href="#page-top">Home</a></li>
+                      <li class="menuItem"><a href="#aboutme">About</a></li>
+                      <li class="menuItem"><a href="#technical">Skills</a></li>
+                      <li class="menuItem"><a href="#experience">Experience</a></li>
+                      <li class="menuItem"><a href="#education">Education</a></li>
+                      <li class="menuItem"><a href="#portfolio">Portfolio</a></li>
+                      <li class="menuItem"><a href="#contact">Contact</a></li>
+                    </ul>
+                    <!-- ul class="nav navbar-nav navbar-right">
+                      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul -->
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- End Navbar -->
         </div>
       </div>
-    </div>
-    <!--menu end-->
-  </header>
-
+    </header>
     <section class="aboutme" id="aboutme">
       <div class="container">
         <div class=heading>
