@@ -23,6 +23,12 @@ $(function() {
   });
 });
 
+// for banner height js
+var windowWidth = $(window).width();
+var windowHeight = $(window).height();
+$('#animazione').css({'width':windowWidth ,'height':windowHeight -"260" });
+// $('#animazione').css({'width':windowWidth ,'margin-top':"35%" });
+
 jQuery(function($) {
   $(document).ready( function() {
     $('.navbar-wrapper').stickUp({
