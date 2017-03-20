@@ -7,6 +7,8 @@
     display: block;
 }
 
+.justify{ text-align: justify!important; }
+
 .intro {
     display: table;
     width: 100%;

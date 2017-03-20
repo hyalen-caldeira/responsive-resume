@@ -22,4 +22,4 @@ var htmlRole = '<h5>%data%</h5>';
 var htmlDegree = '<h4>%data%</h4>';
 var htmlCollege = '<h5>%data%</h5>';
 
-var htmlDetail = '<p>%data%</p>'
+var htmlDetail = '<div  class="justify"><p>%data%</p></div>'
