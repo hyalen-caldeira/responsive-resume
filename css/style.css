@@ -414,8 +414,9 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-weight:700;
     background:#474d5d;
-    padding:16px 22px;
+    padding:12px 18px;
     display:inline-block;
+    text-align: center;
 }
 .bntDownload:hover {
     background:#373d4c;
