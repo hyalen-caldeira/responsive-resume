@@ -1,23 +1,46 @@
 var work = {
     "jobs" : [
         {
-            "company" : "B2W Digital",
+            "company" : "Conversant",
             "role" : "Software Engineer",
+            "location" : "Los Angeles, CA",
+            "dateIni" : "Jun, 2017",
+            "dateEnd" : "Current",
+            "description" : "<b><i>Spring Cloud</i></b> – Implemented from scratch a central config server where all configurable " + 
+            "parameters of applications are written version controlled. The benefit of a central config server is " +
+            "that if we change a property for an app, it can reflect that on the fly without redeploying the app. " +
+            "The solution maintains all properties of all environments (development, staging and production), and " + 
+            "if any properties are changed, it will pick up the changes and reflect them without an application " +
+            "rebuild or restart<p><b><i>Hazelcast and AOP</b></i> – Implemented a distributed cache to lock correlated services " +
+            "being treated at the same time among diferent server</p><p><b><i>Spring Boot and Hibernate</b></i> – Write code in " +
+            "an <b><i>agile</b></i> environment for an online Ad Network company’s <b><i>Java</b></i> API. Add server-side support for new " +
+            "SaaS UI features, address bug tickets in legacy ETL system with a focus on <b><i>TDD</b></i> and delivered quality " +
+            "projects that have been well-received</p><p>Our tests are done in <b><i>Groovy</b></i> with <b><i>Spock</b></i>, but eventually " +
+            "I added the use of an in-memory H2 database for testing models rapidly and without need for a network " +
+            "connection as we would require with integration tests. I designed the scripts used to examine the current " +
+            "state of the <b><i>Oracle</b></i> datastore to output schema/data files used to initialize H2. This allowed for easy " +
+            "maintenance of H2 whenever database changes were made and released to production</p><p>Other responsibilities " +
+            "include <b><i>managing releases</b></i>, improving release methods/tools and maintaining an old <b><i>Java</b></i> based project that " +
+            "keeps data synchronized between our local database and an external data store</p>"
+        },
+        {
+            "company" : "B2W Digital",
+            "role" : "Full-Stack Software Engineer",
             "location" : "Rio de Janeiro, Brazil",
             "dateIni" : "Jun, 2013",
-            "dateEnd" : "Mar, 2017",
-            "description" : "Developed a monitor dashboard based on AngularJS, Bootstrap, Spring, Hibernate and Tomcat " +
+            "dateEnd" : "Apr, 2017",
+            "description" : "Developed a monitor dashboard based on <b><i>React</b></i>, <b><i>Bootstrap</b></i>, <b><i>Spring Boot</b></i> and <b><i>Hibernate</b></i> " +
             "that provides a single pane of glass to visualize the overall integration process among systems, status " +
             "of communication workflow, data validation and recovery error through message forwarding. The dashboard " +
-            "provides REST and SOAP APIs and allows integration with 3rd party systems. By developing the monitor I was " +
+            "provides <b><i>REST</b></i> and <b><i>SOAP</b></i> APIs and allows integration with 3rd party systems. By developing the monitor I was " +
             "able to reduce the time spent on quality assurance, decreased product defects and increase the operation " +
             "reliability by improving the overall product quality;<p>Designed and developed a cache model that reduced " +
             "considerably the number of http connections; </p><p>Designed a new data model that reduces in 50% the time of  " +
-            " performing some DB operations; </p><p>Re-architected a complex data treatment, partially performing the parsing  " +
+            " performing some <b><i>DB</b></i> operations; </p><p>Re-architected a complex data treatment, partially performing the parsing  " +
             " operations in memory instead of in the disk. By doing this I was able to reduce drastically the overhead  " +
-            " parsing the XML (which used to be a big issue, due to the amount of data and servers that should be updated);  " +
+            " parsing the <b><i>XML</b></i> (which used to be a big issue, due to the amount of data and servers that should be updated);  " +
             "</p><p>Designed and developed an integration scenario to send data to a complex distributed system. This  " +
-            "integration scenario allows updates more than 1000 retail stores in 30% of the time spent previously.</p>"
+            "integration scenario, based on <b><i>Java</b></i> ScheduledExecutor, <b><i>SAP IDOC</b></i>, <b><i>SSH</b></i> and <b><i>Linux Rsync</b></i> tool, allows updates more than 1000 retail stores in 30% of the time spent previously.</p>"
         },
         {
             "company" : "B2B Digital",
@@ -152,15 +175,21 @@ work.display = function() {
 
 var education = {
     "schools" : [
-        {   "school" : "Centro Universitário de Ciências Gerenciais (University of Scientific Management) ",
-            "title" : "Technology in Data Processing",
-            "dateConclusion" : "2000",
+        {
+            "school" : "Udacity - Nanodegree",
+            "title" : "React - Fundamentals, Redux and Native",
+            "dateConclusion" : "2017",
             "description" : ""
         },
         {
             "school" : "UFMG - Universidade Federal de Minas Gerais",
             "title" : "Major in Information Technology with Emphasis on Software Engineering",
             "dateConclusion" : "2007",
+            "description" : ""
+        },
+        {   "school" : "Centro Universitário de Ciências Gerenciais (University of Scientific Management) ",
+            "title" : "Technology in Data Processing",
+            "dateConclusion" : "2000",
             "description" : ""
         }
     ]/*,
