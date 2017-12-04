@@ -11,23 +11,23 @@ var work = {
             "that if we change a property for an app, it can reflect that on the fly without redeploying the app. " +
             "The solution maintains all properties of all environments (development, staging and production), and " + 
             "if any properties are changed, it will pick up the changes and reflect them without an application " +
-            "rebuild or restart<p><b><i>Hazelcast and AOP</b></i> – Implemented a distributed cache to lock correlated services " +
-            "being treated at the same time among diferent server</p><p><b><i>Spring Boot and Hibernate</b></i> – Write code in " +
+            "rebuild or restart;<p><b><i>Hazelcast and AOP</b></i> – Implemented a distributed cache to lock correlated services " +
+            "being treated at the same time among diferent server;</p><p><b><i>Spring Boot and Hibernate</b></i> – Write code in " +
             "an <b><i>agile</b></i> environment for an online Ad Network company’s <b><i>Java</b></i> API. Add server-side support for new " +
             "SaaS UI features, address bug tickets in legacy ETL system with a focus on <b><i>TDD</b></i> and delivered quality " +
-            "projects that have been well-received</p><p>Our tests are done in <b><i>Groovy</b></i> with <b><i>Spock</b></i>, but eventually " +
+            "projects that have been well-received;</p><p>Our tests are done in <b><i>Groovy</b></i> with <b><i>Spock</b></i>, but eventually " +
             "I added the use of an in-memory H2 database for testing models rapidly and without need for a network " +
             "connection as we would require with integration tests. I designed the scripts used to examine the current " +
             "state of the <b><i>Oracle</b></i> datastore to output schema/data files used to initialize H2. This allowed for easy " +
-            "maintenance of H2 whenever database changes were made and released to production</p><p>Other responsibilities " +
+            "maintenance of H2 whenever database changes were made and released to production;</p><p>Other responsibilities " +
             "include <b><i>managing releases</b></i>, improving release methods/tools and maintaining an old <b><i>Java</b></i> based project that " +
-            "keeps data synchronized between our local database and an external data store</p>"
+            "keeps data synchronized between our local database and an external data store.</p>"
         },
         {
             "company" : "B2W Digital",
             "role" : "Full-Stack Software Engineer",
             "location" : "Rio de Janeiro, Brazil",
-            "dateIni" : "Jun, 2013",
+            "dateIni" : "Jun, 2014",
             "dateEnd" : "Apr, 2017",
             "description" : "Developed a monitor dashboard based on <b><i>React</b></i>, <b><i>Bootstrap</b></i>, <b><i>Spring Boot</b></i> and <b><i>Hibernate</b></i> " +
             "that provides a single pane of glass to visualize the overall integration process among systems, status " +
@@ -46,8 +46,8 @@ var work = {
             "company" : "B2B Digital",
             "role" : "Software Engineer",
             "location" : "Rio de Janeiro, Brazil",
-            "dateIni" : "Jan, 2012",
-            "dateEnd" : "May, 2013",
+            "dateIni" : "Jan, 2013",
+            "dateEnd" : "May, 2014",
             "description" : "Worked in a Java web systems back-end development and performance tuning for the biggest " +
             "commerce company in South America, using Scrum as Agile Methodology, building and maintaining " +
             "RESTful web services, time measurement and code review to identify issues and suggest improvements,  " +
@@ -57,21 +57,38 @@ var work = {
             "such as SOAP, REST, SFTP and Proxy.</p>"
         },
         {
-            "company" : "SAP NetWeaver (Java)",
-            "role" : "Official Instructor",
-            "location" : "Sao Paulo, Brazil",
-            "dateIni" : "Sep, 2007",
-            "dateEnd" : "Aug, 2014",
-            "description" : "Instructor for SAP NetWeaver (focus Java)."
+            "company" : "Infosys / British Petroleum / Devon Energy ",
+            "role" : "Software Engineer",
+            "location" : "Rio de Janeiro, Brazil",
+            "dateIni" : "Mar, 2011",
+            "dateEnd" : "Dez, 2012",
+            "description" : "Created integration services for external systems and information sources (Java, " + 
+            "Spring and Hibernate); <p>Responsible for risk assessment, database modeling, requirement analysis " +
+            "and configuration management to ensure successful launch of a complex application server upgrade;</p>" +
+            "<p>Part of a Global IT team that worked on the migration of the software’s from Devon Energy to British Petroleum.</p>"
         },
         {
-            "company" : "Infosys / Bombardier Transport",
+            "company" : "Ci&T",
             "role" : "Software Engineer",
-            "location" : "Sao Paulo, Brazil",
-            "dateIni" : "Mar, 2010",
-            "dateEnd" : "Dez, 2011",
-            "description" : "Setup a System Integration for a Logistic and Transportation System using JAX-WS Web " +
-            "services; <br>Developed a Training Management System (JEE/Web Platform) using the Struts Framework."
+            "location" : "Belo Horizonte, Brazil",
+            "dateIni" : "Apr, 2009",
+            "dateEnd" : "Feb, 2011",
+            "description" : "Setup a System Integration for a Logistic and Transportation System using JAX-WS " + 
+            "Web services;<p>Developed a Training Management System (JEE/Web Platform) using the Struts Framework.</p>"
+        },
+        {
+            "company" : "Infosys / Syngenta",
+            "role" : "Integration Architect and Software Engineer",
+            "location" : "Brazil, Argentina and Colombia",
+            "dateIni" : "Feb, 2008",
+            "dateEnd" : "Mar, 2009",
+            "description" : "System integration architect responsible for leading a portfolio analysis as part " +
+            "of Enterprise Architecture (EA) team to support a business transformation program for Latin America " +
+            "operation of a global agricultural company (10+ USD Billion);<p>Responsible for analyzing the " +
+            "existing several SAP instances and 300+ satellite non SAP applications/systems across Latin regions " +
+            "and proposed the tailored TO-BE Enterprise Architecture landscape, which replaced obsolete " +
+            "applications/systems by utilizing the latest SAP solution/technologies, supports hyper growth " +
+            "agricultural business market in the following 5 years.</p>"
         }/*,
         {
             "company" : "Infosys / British Petroleum / Devon Energy",
