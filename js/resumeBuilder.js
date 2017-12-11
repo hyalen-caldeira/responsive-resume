@@ -11,8 +11,8 @@ var work = {
             "that if we change a property for an app, it can reflect that on the fly without redeploying the app. " +
             "The solution maintains all properties of all environments (development, staging and production), and " + 
             "if any properties are changed, it will pick up the changes and reflect them without an application " +
-            "rebuild or restart;<p><b><i>Hazelcast and AOP</b></i> – Implemented a distributed cache to lock correlated services " +
-            "being treated at the same time among diferent server;</p><p><b><i>Spring Boot and Hibernate</b></i> – Write code in " +
+            "rebuild or restart;<p><b><i>Hazelcast</b></i> and <b><i>AOP</b></i> – Implemented a distributed cache to lock correlated services " +
+            "being treated at the same time among diferent server;</p><p><b><i>Spring Boot</b></i> and <b><i>Hibernate</b></i> – Write code in " +
             "an <b><i>agile</b></i> environment for an online Ad Network company’s <b><i>Java</b></i> API. Add server-side support for new " +
             "SaaS UI features, address bug tickets in legacy ETL system with a focus on <b><i>TDD</b></i> and delivered quality " +
             "projects that have been well-received;</p><p>Our tests are done in <b><i>Groovy</b></i> with <b><i>Spock</b></i>, but eventually " +
@@ -20,7 +20,7 @@ var work = {
             "connection as we would require with integration tests. I designed the scripts used to examine the current " +
             "state of the <b><i>Oracle</b></i> datastore to output schema/data files used to initialize H2. This allowed for easy " +
             "maintenance of H2 whenever database changes were made and released to production;</p><p>Other responsibilities " +
-            "include <b><i>managing releases</b></i>, improving release methods/tools and maintaining an old <b><i>Java</b></i> based project that " +
+            "include <b><i>Managing Releases</b></i>, improving release methods/tools and maintaining an old <b><i>Java</b></i> based project that " +
             "keeps data synchronized between our local database and an external data store.</p>"
         },
         {
@@ -48,13 +48,13 @@ var work = {
             "location" : "Rio de Janeiro, Brazil",
             "dateIni" : "Jan, 2013",
             "dateEnd" : "May, 2014",
-            "description" : "Worked in a Java web systems back-end development and performance tuning for the biggest " +
-            "commerce company in South America, using Scrum as Agile Methodology, building and maintaining " +
-            "RESTful web services, time measurement and code review to identify issues and suggest improvements,  " +
-            "developing new services, building tests using JUnit, Mockito and Selenium, daily contact directly with  " +
-            "clients around South America and using Jira as a bug tracking tool;<p> I had also been part of a back-end  " +
-            "integration team for the e-commerce systems in a high-availability environment, using different technologies  " +
-            "such as SOAP, REST, SFTP and Proxy.</p>"
+            "description" : "Worked in a <b><i>Java</b></i> web systems <b><i>Back-End</b></i> development and performance tuning for the biggest " +
+            "<b><i>e-commerce</b></i> company in South America, using <b><i>Scrum</b></i> as <b><i>Agile</b></i> methodology, building and maintaining " +
+            "<b><i>RESTful</b></i> web services, time measurement and code review to identify issues and suggest improvements,  " +
+            "developing new services, building tests using <b><i>JUnit</b></i>, <b><i>Mockito</b></i> and <b><i>Selenium</b></i>, daily contact directly with  " +
+            "clients around South America and using <b><i>Jira</b></i> as <b><i>Agile</b></i> tool;<p> I had also been part of a <b><i>Back-End</b></i>  " +
+            "integration team for the <b><i>e-commerce</b></i> systems in a high-availability environment, using different technologies  " +
+            "such as <b><i>SOAP</b></i>, <b><i>REST</b></i>, <b><i>SFTP</b></i> and <b><i>Proxy</b></i>.</p>"
         },
         {
             "company" : "Infosys / British Petroleum / Devon Energy ",
