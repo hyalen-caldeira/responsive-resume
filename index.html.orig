@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Hyalen</title>
+  <!-- Bootstrap & Snippet plugin core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300" rel="stylesheet" type="text/css">
+</head>
+<body id="page-top">
+  <div class="wrapper" id="banner">
+    <header>
+    <!--banner start-->
+    <!--div class="banner row" id="banner" style="width: 1280px; height: 600px;">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd" style="height:100%">
+
+        <div class="bannerPart"> <img src="images/1.jpg" alt="" class="bgheight img-responsive"> </div>
+
+      </div>
+    </div-->
+    <!--banner end-->
+    <section class="intro wrapper" id="wrapper">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd">
+                        <div id="animazione" style="display: block;">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bannerText container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h1>I'm Hyalen Moreira</h1>
+      <h2>Software Engineer &amp; Full Stack Web Developer</h2>
+    </div>
+    <!--menu start-->
+    <div class="menu">
+      <div class="navbar-wrapper stuckMenu" style="position: relative; top: 0px;">
+        <div class="container">
+          <div class="navwrapper">
+            <div class="navbar navbar-inverse navbar-static-top">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                  <a class="navbar-brand" href="#">Menu</a> </div>
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="menuItem active"><a href="#wrapper">Home</a></li>
+                    <li class="menuItem"><a href="#aboutme">About</a></li>
+                    <li class="menuItem"><a href="#technical">Skills</a></li>
+                    <li class="menuItem"><a href="#experience">Experience</a></li>
+                    <li class="menuItem"><a href="#education">Education</a></li>
+                    <li class="menuItem"><a href="#portfolio">Portfolio</a></li>
+                    <li class="menuItem"><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Navbar -->
+        </div>
+      </div>
+    </div>
+    <!--menu end-->
+  </header>
+
+    <section class="aboutme" id="aboutme">
+      <div class="container">
+        <div class=heading>
+          <h2>About Me</h2>
+          <p>A small introduce about myself</p>
+        </div>
+        <div class="row">
+          <div class=" col-xs-12 col-sm-12 col-md-7 col-lg-7">
+            <div class="justify">
+              <h3>Hyalen Moreira</h3>
+              <h4 class="subHeading">Senior Software Engineer &amp; Full Stack Developer</h4>
+              <p><span>Software Engineer</span> with 15+ years of experience, I have both <span>Back-End</span> and <span>Front-End</span> software development experience. I enjoy developing software from the ground up, learning new technologies, refactoring legacy code and making the companies, where I've been working on, satisfied.</p>
+              
+<<<<<<< HEAD
+              <p>Currently I'm working as <span>Software Engineer</span> at <span>Conversant</span> writing code in an <span>agile</span> environment for an online <span>Ad Network</span> company’s <span>Java API</span>, adding server-side support for new SaaS UI features, addressing bug tickets in legacy ETL system with a focus on <span>Test-Driven-Development</span> and delivering quality projects that have been well-received.</p>                    
+              
+              <p>Before that I was working as <span>Software Engineer</span> at <span>B2W Digital</span> responsible for designing and implementing solutions for <span>integration</span>, financial and government applications, as well as researching and suggesting new tools, <span>algorithms</span> and solutions to increase system quality. I also serve as part of a <span>Back-End</span> integration team for the <span>eCommerce</span> systems.</p>
+              
+              <p>I have global experience across different companies designing and developing applications using
+              <span> Java, Hibernate, Spring, React, AWS, JAX-RS, JAX-WS, SQL, OOD</span> and others. I hold a degree in <span>Software Engineer</span> from UFMG - Universidade Federal de Minas Gerais. </p>
+=======
+              <p>Currently I'm working as <span>Software Engineer</span> at <span>Conversant</span> writing code in an <span>agile</span> environment for an online Ad Network company’s <span>Java API</span>, adding server-side support for new SaaS UI features, addressing bug tickets in legacy ETL system with a focus on <span>Test-Driven-Development</span> and delivering quality projects that have been well-received.</p>                    
+              
+              <p>Before that I was working as <span>Software Engineer</span> at <span>B2W Digital</span> responsible for designing and implementing solutions for integration, financial and government applications, as well as researching and suggesting new tools, algorithms and solutions to increase system quality. I also serve as part of a <span>Back-End</span> integration team for the eCommerce systems.</p>
+              
+              <p>I have global experience across different companies designing and developing applications using
+              <span> Java, Hibernate, Spring, React, AWS, JAX-RS, JAX-WS, SQL, OOD and others.</span> I hold a degree in <span>Software Engineer</span> from UFMG - Universidade Federal de Minas Gerais. </p>
+>>>>>>> 4c0c8ad3c182c35adb645b6e2ce2f25a17a55b78
+
+              <a href="resume/cv_hyalen_moreira.pdf" class="bntDownload">Downloading Printable Resume</a>
+            </div>
+          </div>
+          <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 proPic">
+            <img src="images/hyalen.jpg" alt class="img-circle topmar">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="technical" id="technical">
+      <div class="container">
+        <div class="heading">
+          <h2>Technical Skills</h2>
+          <p>I can say I'm quite goot at</p>
+        </div>
+      </div>
+    </section>
+    <section class="experience" id="experience">
+      <div class="container"></div>
+    </section>
+    <section class="education" id="education">
+      <div class="container"></div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="heading">
+          <h2>Portfolio</h2>
+          <p>showcase of my latest works</p>
+      </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container"></div>
+    </section>
+    <section class="contactDetails">
+      <div class="container">
+        <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
+          <h4>Contact Details</h4>
+          <p>
+            <i class="fa fa-map-marker fa-lg"></i> 15471 Ficus St, CA - USA
+          </p>
+          <p>
+            <i class="fa fa-mobile fa-lg"></i> +1 (909) 234 7007
+          </p>
+          <p>
+            <i class="fa fa-envelope-o"></i> hyalen.moreira@gmail.com
+          </p>
+          <p>
+            <i class="fa fa-link"></i> <a href="../Portfolio/index.html">www.hyalen.us</a>
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 conForm">
+          <h4>Shoot a message!</h4>
+          <div id="message"></div>
+          <form method="post" action="#" name="cform" id="cform">
+            <input name="name" id="name" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name...">
+            <input name="email" id="email" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 noMarr" placeholder="Your email...">
+            <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..."></textarea>
+            <input type="submit" id="submit" name="send" class="submitBnt" value="Send message">
+            <div id="simple-msg"></div>
+        </form>
+      </div>
+      </div>
+    </section>
+    <footer></footer>
+  </div>
+  <!-- script type="text/javascript">
+    jQuery("document").ready(function($){
+
+      var nav = $('#hyalen');
+
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 600) {
+          nav.addClass("f-nav");
+        } else {
+          nav.removeClass("f-nav");
+        }
+      });
+    });
+  </script -->
+
+  <!-- Bootstrap & Plugins core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- ### IMPORTANT ### stickUp javascript file -->
+    <!-- ######################################### -->
+    <script src="js/stickUp.js"></script>
+    <!-- ######################################### -->
+
+    <!-- ### IMPORTANT ### -->
+    <!-- ######################################### -->
+    <script src="js/helper.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/resumeBuilder.js"></script>
+    <!-- ######################################## -->
+
+
+    <script type="text/javascript">
+    if (!$("#experience").find(".heading").length) {
+        $("#experience").display = "none";
+    }
+
+    if (!$("#education").find(".heading").length) {
+        $("#education").display = "none";
+    }
+  </script>
+</body>
+</html>
