@@ -1,21 +1,36 @@
 var work = {
     "jobs" : [
         {
+            "company" : "cFive",
+            "role" : "Software Engineer",
+            "location" : "Laguna Hills, CA",
+            "dateIni" : "Jun, 2018",
+            "dateEnd" : "Current",
+            "description" : "<b><i>Spring Security SAML, Spring Boot, Java</b></i> - Developed a security model (through <b><i>Microservice " +
+            "Architecture</b></i>) to allow access to the LA County main system using <b><i>Microsoft AAD/MIM</b></i>. The system " +
+            "is accessed by government departments as FBI, Police Department, among others. This project is a " +
+            "implementation of a <b><i>SAML 2.0</b></i> Service Provider, completely built on <b><i>Spring Framework</b></i>. A web " +
+            "solution devised for Federated Authentication by integrating <b><i>Spring Boot</b></i> and <b><i>Spring Security SAML</b></i>. " +
+            "The configuration has been completely defined using <b><i>Java</b></i> annotations (no XML); " +
+            "<p><b><i>Full Stack Developer</b></i> (Java, Jersey, JPA, AngularJS, JavaScript, Bootstrap, HTML and CSS).</p>"
+        },
+        {
             "company" : "Conversant",
             "role" : "Software Engineer",
-            "location" : "Los Angeles, CA",
+            "location" : "Westlake Village, CA",
             "dateIni" : "Jun, 2017",
-            "dateEnd" : "Current",
-            "description" : "<b><i>Spring Cloud</i></b> – Implemented from scratch a central config server where all configurable " + 
+            "dateEnd" : "Jan, 2018",
+            "description" : "<p><b><i>Java, Spring Boot, RESTfull</b></i> and <b><i>Hibernate</b></i> – Write code in " +
+            "an <b><i>agile</b></i> environment for an online Ad Network company’s <b><i>Java</b></i> API. Add server-side support for new " +
+            "SaaS UI features, address bug tickets in legacy ETL system with a focus on <b><i>TDD</b></i> and delivered quality " +
+            "projects that have been well-received;</p><p><b><i>Spring Cloud</i></b> – Implemented from scratch a central config server where all configurable " + 
             "parameters of applications are written version controlled. The benefit of a central config server is " +
             "that if we change a property for an app, it can reflect that on the fly without redeploying the app. " +
             "The solution maintains all properties of all environments (development, staging and production), and " + 
             "if any properties are changed, it will pick up the changes and reflect them without an application " +
-            "rebuild or restart;<p><b><i>Hazelcast</b></i> and <b><i>AOP</b></i> – Implemented a distributed cache to lock correlated services " +
-            "being treated at the same time among diferent server;</p><p><b><i>Spring Boot</b></i> and <b><i>Hibernate</b></i> – Write code in " +
-            "an <b><i>agile</b></i> environment for an online Ad Network company’s <b><i>Java</b></i> API. Add server-side support for new " +
-            "SaaS UI features, address bug tickets in legacy ETL system with a focus on <b><i>TDD</b></i> and delivered quality " +
-            "projects that have been well-received;</p><p>Our tests are done in <b><i>Groovy</b></i> with <b><i>Spock</b></i>, but eventually " +
+            "rebuild or restart;</p><p><b><i>Hazelcast</b></i> and <b><i>AOP</b></i> – Implemented a distributed cache to lock correlated services " +
+            "being treated at the same time among diferent server;</p>" +
+            "<p>Our tests are done in <b><i>Groovy</b></i> with <b><i>Spock</b></i>, but eventually " +
             "I added the use of an in-memory H2 database for testing models rapidly and without need for a network " +
             "connection as we would require with integration tests. I designed the scripts used to examine the current " +
             "state of the <b><i>Oracle</b></i> datastore to output schema/data files used to initialize H2. This allowed for easy " +
