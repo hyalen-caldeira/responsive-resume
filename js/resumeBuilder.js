@@ -32,9 +32,7 @@ var work = {
             "being treated at the same time among diferent server;</p>" +
             "<p>Our tests are done in <b><i>Groovy</b></i> with <b><i>Spock</b></i>, but eventually " +
             "I added the use of an in-memory H2 database for testing models rapidly and without need for a network " +
-            "connection as we would require with integration tests. I designed the scripts used to examine the current " +
-            "state of the <b><i>Oracle</b></i> datastore to output schema/data files used to initialize H2. This allowed for easy " +
-            "maintenance of H2 whenever database changes were made and released to production;</p><p>Other responsibilities " +
+            "connection as we would require with integration tests;</p><p>Other responsibilities " +
             "include <b><i>Managing Releases</b></i>, improving release methods/tools and maintaining an old <b><i>Java</b></i> based project that " +
             "keeps data synchronized between our local database and an external data store.</p>"
         },
