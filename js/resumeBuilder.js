@@ -1,18 +1,45 @@
 var work = {
     "jobs" : [
         {
+            "company" : "Accenture",
+            "role" : "Application Developer Associate Manager",
+            "location" : "Columbus, OH",
+            "dateIni" : "Mar, 2019",
+            "dateEnd" : "Current",
+            "description" : 
+                "<p>Designed, architected and developed a fun game to be used internally by Accenture " +
+                "to help people know each other. The goal was to increase the relationship between teams, allowing " +
+                "them to share experience.</p>" +
+                
+                "<p>Acted as an <b><i>AWS Cloud Software Engineer</b></i> to innovate a service that enhances a big tech " +
+                "and entertainment company (in partnership with a large bank) customers delivery experience.</p>" +
+                
+                "<p>Worked as a <b><i>Java Backend Software Engineer</b></i> in several projects, big clients and different kind of industries</p>" +
+                
+                "<p><b><i>DevOps</b></i> & <b><i>Continuous Integration Engineer</b></i> for internal, regional and international projects. " +
+                "I bring projects to comply with the latest <b><i>Continuous Integration</b></i> and <b><i>Continuous Delivery</b></i> practices.</p>" +
+                
+                "<p><b><i>Key achievement</b></i>: Contributed to migrate <b><i>Monolithics</b></i> applications to <b><i>Microservice</b></i> " +
+                "and cloud architecture. " +
+                "Delivered apps with 100% on-time record and only minimal updates, following <b><i>Agile</b></i> methodologies and " +
+                "applying <b><i>XP</b></i> best practices. Acted as an <b><i>Anchor</b></i> helping new Engineers to increase their skills and " +
+                "ensuring that they follow best development practices.</p>"
+        },
+        {
             "company" : "cFive",
-            "role" : "Software Engineer",
+            "role" : "Senior Software Engineer",
             "location" : "Laguna Hills, CA",
             "dateIni" : "Jun, 2018",
-            "dateEnd" : "Current",
-            "description" : "<b><i>Spring Security SAML, Spring Boot, Java</b></i> - Developed a security model (through <b><i>Microservice " +
-            "Architecture</b></i>) to allow access to the LA County main system using <b><i>Microsoft AAD/MIM</b></i>. The system " +
-            "is accessed by government departments as FBI, Police Department, among others. This project is a " +
-            "implementation of a <b><i>SAML 2.0</b></i> Service Provider, completely built on <b><i>Spring Framework</b></i>. A web " +
-            "solution devised for Federated Authentication by integrating <b><i>Spring Boot</b></i> and <b><i>Spring Security SAML</b></i>. " +
-            "The configuration has been completely defined using <b><i>Java</b></i> annotations (no XML); " +
-            "<p><b><i>Full Stack Developer</b></i> (Java, Jersey, JPA, AngularJS, JavaScript, Bootstrap, HTML and CSS).</p>"
+            "dateEnd" : "Mar, 2019",
+            "description" : 
+                "<p><b><i>Java, Spring Security SAML and Spring Boot</b></i> - Designed, architected and developed a security model " +
+                "(through <b><i>Microservice Architecture</b></i>) to allow access to the LA County main system using Microsoft AAD/MIM. " +
+                "The system is accessed by government departments as FBI, Police Department, among others. This project is an " +
+                "implementation of a <b><i>SAML 2.0 Service Provider</b></i>, completely built on <b><i>Spring Framework</b></i>. A web solution devised " +
+                "for Federated Authentication by integrating <b><i>Spring Boot</b></i> and Spring <b><i>Security SAML</b></i>. The configuration has been " +
+                "completely defined using <b><i>Java</b></i> annotations (no XML).</p>" +
+
+                "<p><b><i>Full Stack Developer</b></i> (Java, Jersey, JPA, AngularJS, JavaScript, Bootstrap, HTML and CSS).</p>"
         },
         {
             "company" : "Conversant",
@@ -20,25 +47,28 @@ var work = {
             "location" : "Westlake Village, CA",
             "dateIni" : "Jun, 2017",
             "dateEnd" : "Jan, 2018",
-            "description" : "<p><b><i>Java, Spring Boot, RESTfull</b></i> and <b><i>Hibernate</b></i> – Write code in " +
-            "an <b><i>agile</b></i> environment for an online Ad Network company’s <b><i>Java</b></i> API. Add server-side support for new " +
-            "SaaS UI features, address bug tickets in legacy ETL system with a focus on <b><i>TDD</b></i> and delivered quality " +
-            "projects that have been well-received;</p><p><b><i>Spring Cloud</i></b> – Implemented from scratch a central config server where all configurable " + 
-            "parameters of applications are written version controlled. The benefit of a central config server is " +
-            "that if we change a property for an app, it can reflect that on the fly without redeploying the app. " +
-            "The solution maintains all properties of all environments (development, staging and production), and " + 
-            "if any properties are changed, it will pick up the changes and reflect them without an application " +
-            "rebuild or restart;</p><p><b><i>Hazelcast</b></i> and <b><i>AOP</b></i> – Implemented a distributed cache to lock correlated services " +
-            "being treated at the same time among diferent server;</p>" +
-            "<p>Our tests are done in <b><i>Groovy</b></i> with <b><i>Spock</b></i>, but eventually " +
-            "I added the use of an in-memory H2 database for testing models rapidly and without need for a network " +
-            "connection as we would require with integration tests;</p><p>Other responsibilities " +
-            "include <b><i>Managing Releases</b></i>, improving release methods/tools and maintaining an old <b><i>Java</b></i> based project that " +
-            "keeps data synchronized between our local database and an external data store.</p>"
+            "description" : 
+                "<p><b><i>Java, Spring Boot, Spring MVC, RESTful</b></i> and <b><i>Hibernate</b></i> – Write code in an <b><i>Agile</b></i> environment for an online Ad Network " +
+                "company’s <b><i>Java</b></i> API. Add server-side support for new SaaS UI features, address bug tickets in legacy system with focus " +
+                "on <b><i>TDD</b></i> and delivered quality projects that have been well-received.</p>" +
+
+                "<p><b><i>Spring Cloud</b></i> – Implemented from scratch a central config server where all configurable parameters of applications " + 
+                "are written version controlled. The benefit of a central config server is that if we change a property for an app, " +
+                "it can reflect that on the fly without redeploying the app. The solution maintains all properties of all environments " +
+                "(development, staging and production), and if any properties are changed, it will pick up the changes and reflect " +
+                "them without an application rebuild or restart.</p>" +
+
+                "<p><b><i>Hazelcast</b></i> and <b><i>Spring AOP</b></i> – Implemented a distributed cache to lock correlated services being treated at the same " +
+                "time among different servers.</p>" +
+
+                "<p>Our tests are done in <b><i>Groovy</b></i> with <b><i>Spock</b></i>, but eventually I added the use of an in-memory <b><i>H2</b></i> database for testing " +
+                "models rapidly and without need for a network connection as we would require with integration tests; Other " +
+                "responsibilities include <b><i>Managing Releases</b></i>, improving release methods/tools and maintaining an old <b><i>Java</b></i> based " +
+                "project that keeps data synchronized between our local database and an external data store.</p>"
         },
         {
             "company" : "B2W Digital",
-            "role" : "Full-Stack Software Engineer",
+            "role" : "Senior Software Engineer",
             "location" : "Rio de Janeiro, Brazil",
             "dateIni" : "Jun, 2014",
             "dateEnd" : "Apr, 2017",
@@ -57,7 +87,7 @@ var work = {
         },
         {
             "company" : "B2B Digital",
-            "role" : "Software Engineer",
+            "role" : "Senior Software Engineer",
             "location" : "Rio de Janeiro, Brazil",
             "dateIni" : "Jan, 2013",
             "dateEnd" : "May, 2014",
@@ -68,7 +98,7 @@ var work = {
             "clients around South America and using <b><i>Jira</b></i> as <b><i>Agile</b></i> tool;<p> I had also been part of a <b><i>Back-End</b></i>  " +
             "integration team for the <b><i>e-commerce</b></i> systems in a high-availability environment, using different technologies  " +
             "such as <b><i>SOAP</b></i>, <b><i>REST</b></i>, <b><i>SFTP</b></i> and <b><i>Proxy</b></i>.</p>"
-        },
+        }/* ,
         {
             "company" : "Infosys / British Petroleum / Devon Energy ",
             "role" : "Software Engineer",
@@ -102,7 +132,7 @@ var work = {
             "and proposed the tailored TO-BE Enterprise Architecture landscape, which replaced obsolete " +
             "applications/systems by utilizing the latest SAP solution/technologies, supports hyper growth " +
             "agricultural business market in the following 5 years.</p>"
-        }/*,
+        }
         {
             "company" : "Infosys / British Petroleum / Devon Energy",
             "role" : "Software Engineer",
