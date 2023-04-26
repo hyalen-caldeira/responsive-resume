@@ -2,44 +2,49 @@ var work = {
     "jobs" : [
         {
             "company" : "Accenture",
-            "role" : "Application Developer Associate Manager",
-            "location" : "Columbus, OH",
+            "role" : "Software Engineer",
+            "location" : "Dublin, OH",
             "dateIni" : "Mar, 2019",
             "dateEnd" : "Current",
             "description" : 
-                "<p>Designed, architected and developed a fun game to be used internally by Accenture " +
-                "to help people know each other. The goal was to increase the relationship between teams, allowing " +
-                "them to share experience.</p>" +
+                "<p>Consulted some big companies as part of its <b><i>Full Stack Engineer</i></b> & <b><i>Cloud</i></b> team. Built <b><i>Micro-Frontend</i></b> " + 
+                "applications with <b><i>Java</i></b>, <b><i>Spring Boot</i></b> and <b><i>Angular</i></b> to run on top of legacy systems, extracting " + 
+                "existent functionalities and/or implementing new ones. Worked as a <b><i>Full-Stack Engineer</i></b>, designing features, building " + 
+                "<b><i>RESTful APIs</i></b>, migrating legacy systems to the new <b><i>Microservice</i></b>/<b><i>Micro-Frontend</i></b> " + 
+                "architecture, creating and executing <b><i>Unit Tests</i></b>;</p>" +
                 
-                "<p>Acted as an <b><i>AWS Cloud Software Engineer</b></i> to innovate a service that enhances a big tech " +
-                "and entertainment company (in partnership with a large bank) customers delivery experience.</p>" +
+                "<p>Actively helping with internal knowledge dissemination, promoting internal technical events, mentoring " + 
+                "<b><i>Java</i></b>/<b><i>Spring Boot</i></b> and <b><i>Angular</i></b> apprentices, writing blog posts for Accenture Code's community, " + 
+                "developing internal projects to fill in AC's necessities and trying out new technologies;</p>" + 
                 
-                "<p>Worked as a <b><i>Java Backend Software Engineer</b></i> in several projects, big clients and different kind of industries</p>" +
+                "<p>Acted as an <b><i>AWS Cloud Software Engineer</i></b> to innovate a service that enhances a big tech and entertainment company " + 
+                "(in partnership with a large bank) customers delivery experience;</p>" +
                 
-                "<p><b><i>DevOps</b></i> & <b><i>Continuous Integration Engineer</b></i> for internal, regional and international projects. " +
-                "I bring projects to comply with the latest <b><i>Continuous Integration</b></i> and <b><i>Continuous Delivery</b></i> practices.</p>" +
+                "<p><b><i>DevOps</i></b> & <b><i>Continuous Integration Engineer</i></b> for internal, regional and international projects. I bring projects " + 
+                "to comply with the latest <b><i>Continuous Integration</i></b> and <b><i>Continuous Delivery</i></b> practices.</p>" +
                 
-                "<p><b><i>Key achievement</b></i>: Contributed to migrate <b><i>Monolithics</b></i> applications to <b><i>Microservice</b></i> " +
-                "and cloud architecture. " +
-                "Delivered apps with 100% on-time record and only minimal updates, following <b><i>Agile</b></i> methodologies and " +
-                "applying <b><i>XP</b></i> best practices. Acted as an <b><i>Anchor</b></i> helping new Engineers to increase their skills and " +
-                "ensuring that they follow best development practices.</p>"
+                "<p><b><i>Key achievement</i></b>: Responsible for maintaining and developing new features for the company's main website. " + 
+                "Contributed to migrate <b><i>Monolithics</i></b> applications to <b><i>Microservice</i></b> and <b><i>Cloud</i></b> architecture. Delivered apps with 100% on-time record and " + 
+                "only minimal updates, following <b><i>Agile</i></b> methodologies and applying <b><i>XP</i></b> best practices. Acted as an <b><i>Anchor</i></b> helping new Engineers to increase " + 
+                "their skills and ensuring that they follow best development practices.</p>" +
+                
+                "<p><b><i>Skills: Java, Spring Boot, TypeScript, JavaScript, Angular, Jasmine/Karma, Git, RESTful, Agile, CI/CD</i></b></p>"
         },
         {
             "company" : "cFive",
-            "role" : "Senior Software Engineer",
+            "role" : "Software Engineer",
             "location" : "Laguna Hills, CA",
             "dateIni" : "Jun, 2018",
             "dateEnd" : "Mar, 2019",
             "description" : 
-                "<p><b><i>Java, Spring Security SAML and Spring Boot</b></i> - Designed, architected and developed a security model " +
-                "(through <b><i>Microservice Architecture</b></i>) to allow access to the LA County main system using Microsoft AAD/MIM. " +
+                "<p><b><i>Java, Spring Security SAML and Spring Boot</i></b> - Designed, architected and developed a security model " +
+                "(through <b><i>Microservice Architecture</i></b>) to allow access to the LA County main system using Microsoft AAD/MIM. " +
                 "The system is accessed by government departments as FBI, Police Department, among others. This project is an " +
-                "implementation of a <b><i>SAML 2.0 Service Provider</b></i>, completely built on <b><i>Spring Framework</b></i>. A web solution devised " +
-                "for Federated Authentication by integrating <b><i>Spring Boot</b></i> and Spring <b><i>Security SAML</b></i>. The configuration has been " +
-                "completely defined using <b><i>Java</b></i> annotations (no XML).</p>" +
+                "implementation of a <b><i>SAML 2.0 Service Provider</i></b>, completely built on <b><i>Spring Framework</i></b>. A web solution devised " +
+                "for Federated Authentication by integrating <b><i>Spring Boot</i></b> and Spring <b><i>Security SAML</i></b>. The configuration has been " +
+                "completely defined using <b><i>Java</i></b> annotations (no XML).</p>" +
 
-                "<p><b><i>Full Stack Developer</b></i> (Java, Jersey, JPA, AngularJS, JavaScript, Bootstrap, HTML and CSS).</p>"
+                "<p><b><i>Full Stack Developer</i></b> (Java, Jersey, JPA, React/Next, TypeScript, Bootstrap, HTML and CSS).</p>"
         },
         {
             "company" : "Conversant",
@@ -48,42 +53,42 @@ var work = {
             "dateIni" : "Jun, 2017",
             "dateEnd" : "Jan, 2018",
             "description" : 
-                "<p><b><i>Java, Spring Boot, Spring MVC, RESTful</b></i> and <b><i>Hibernate</b></i> – Write code in an <b><i>Agile</b></i> environment for an online Ad Network " +
-                "company’s <b><i>Java</b></i> API. Add server-side support for new SaaS UI features, address bug tickets in legacy system with focus " +
-                "on <b><i>TDD</b></i> and delivered quality projects that have been well-received.</p>" +
+                "<p><b><i>Java, Spring Boot, Spring MVC, RESTful</i></b> and <b><i>Hibernate</i></b> – Write code in an <b><i>Agile</i></b> environment for an online Ad Network " +
+                "company’s <b><i>Java</i></b> API. Add server-side support for new SaaS UI features, address bug tickets in legacy system with focus " +
+                "on <b><i>TDD</i></b> and delivered quality projects that have been well-received.</p>" +
 
-                "<p><b><i>Spring Cloud</b></i> – Implemented from scratch a central config server where all configurable parameters of applications " + 
+                "<p><b><i>Spring Cloud</i></b> – Implemented from scratch a central config server where all configurable parameters of applications " + 
                 "are written version controlled. The benefit of a central config server is that if we change a property for an app, " +
                 "it can reflect that on the fly without redeploying the app. The solution maintains all properties of all environments " +
                 "(development, staging and production), and if any properties are changed, it will pick up the changes and reflect " +
                 "them without an application rebuild or restart.</p>" +
 
-                "<p><b><i>Hazelcast</b></i> and <b><i>Spring AOP</b></i> – Implemented a distributed cache to lock correlated services being treated at the same " +
+                "<p><b><i>Hazelcast</i></b> and <b><i>Spring AOP</i></b> – Implemented a distributed cache to lock correlated services being treated at the same " +
                 "time among different servers.</p>" +
 
-                "<p>Our tests are done in <b><i>Groovy</b></i> with <b><i>Spock</b></i>, but eventually I added the use of an in-memory <b><i>H2</b></i> database for testing " +
+                "<p>Our tests are done in <b><i>Groovy</i></b> with <b><i>Spock</i></b>, but eventually I added the use of an in-memory <b><i>H2</i></b> database for testing " +
                 "models rapidly and without need for a network connection as we would require with integration tests; Other " +
-                "responsibilities include <b><i>Managing Releases</b></i>, improving release methods/tools and maintaining an old <b><i>Java</b></i> based " +
+                "responsibilities include <b><i>Managing Releases</i></b>, improving release methods/tools and maintaining an old <b><i>Java</i></b> based " +
                 "project that keeps data synchronized between our local database and an external data store.</p>"
-        },
+        }/*,
         {
             "company" : "B2W Digital",
             "role" : "Senior Software Engineer",
             "location" : "Rio de Janeiro, Brazil",
             "dateIni" : "Jun, 2014",
             "dateEnd" : "Apr, 2017",
-            "description" : "Developed a monitor dashboard based on <b><i>React</b></i>, <b><i>Bootstrap</b></i>, <b><i>Spring Boot</b></i> and <b><i>Hibernate</b></i> " +
+            "description" : "Developed a monitor dashboard based on <b><i>React</i></b>, <b><i>Bootstrap</i></b>, <b><i>Spring Boot</i></b> and <b><i>Hibernate</i></b> " +
             "that provides a single pane of glass to visualize the overall integration process among systems, status " +
             "of communication workflow, data validation and recovery error through message forwarding. The dashboard " +
-            "provides <b><i>REST</b></i> and <b><i>SOAP</b></i> APIs and allows integration with 3rd party systems. By developing the monitor I was " +
+            "provides <b><i>REST</i></b> and <b><i>SOAP</i></b> APIs and allows integration with 3rd party systems. By developing the monitor I was " +
             "able to reduce the time spent on quality assurance, decreased product defects and increase the operation " +
             "reliability by improving the overall product quality;<p>Designed and developed a cache model that reduced " +
             "considerably the number of http connections; </p><p>Designed a new data model that reduces in 50% the time of  " +
-            " performing some <b><i>DB</b></i> operations; </p><p>Re-architected a complex data treatment, partially performing the parsing  " +
+            " performing some <b><i>DB</i></b> operations; </p><p>Re-architected a complex data treatment, partially performing the parsing  " +
             " operations in memory instead of in the disk. By doing this I was able to reduce drastically the overhead  " +
-            " parsing the <b><i>XML</b></i> (which used to be a big issue, due to the amount of data and servers that should be updated);  " +
+            " parsing the <b><i>XML</i></b> (which used to be a big issue, due to the amount of data and servers that should be updated);  " +
             "</p><p>Designed and developed an integration scenario to send data to a complex distributed system. This  " +
-            "integration scenario, based on <b><i>Java</b></i> ScheduledExecutor, <b><i>SAP IDOC</b></i>, <b><i>SSH</b></i> and <b><i>Linux Rsync</b></i> tool, allows updates more than 1000 retail stores in 30% of the time spent previously.</p>"
+            "integration scenario, based on <b><i>Java</i></b> ScheduledExecutor, <b><i>SAP IDOC</i></b>, <b><i>SSH</i></b> and <b><i>Linux Rsync</i></b> tool, allows updates more than 1000 retail stores in 30% of the time spent previously.</p>"
         },
         {
             "company" : "B2B Digital",
@@ -91,14 +96,14 @@ var work = {
             "location" : "Rio de Janeiro, Brazil",
             "dateIni" : "Jan, 2013",
             "dateEnd" : "May, 2014",
-            "description" : "Worked in a <b><i>Java</b></i> web systems <b><i>Back-End</b></i> development and performance tuning for the biggest " +
-            "<b><i>e-commerce</b></i> company in South America, using <b><i>Scrum</b></i> as <b><i>Agile</b></i> methodology, building and maintaining " +
-            "<b><i>RESTful</b></i> web services, time measurement and code review to identify issues and suggest improvements,  " +
-            "developing new services, building tests using <b><i>JUnit</b></i>, <b><i>Mockito</b></i> and <b><i>Selenium</b></i>, daily contact directly with  " +
-            "clients around South America and using <b><i>Jira</b></i> as <b><i>Agile</b></i> tool;<p> I had also been part of a <b><i>Back-End</b></i>  " +
-            "integration team for the <b><i>e-commerce</b></i> systems in a high-availability environment, using different technologies  " +
-            "such as <b><i>SOAP</b></i>, <b><i>REST</b></i>, <b><i>SFTP</b></i> and <b><i>Proxy</b></i>.</p>"
-        }/* ,
+            "description" : "Worked in a <b><i>Java</i></b> web systems <b><i>Back-End</i></b> development and performance tuning for the biggest " +
+            "<b><i>e-commerce</i></b> company in South America, using <b><i>Scrum</i></b> as <b><i>Agile</i></b> methodology, building and maintaining " +
+            "<b><i>RESTful</i></b> web services, time measurement and code review to identify issues and suggest improvements,  " +
+            "developing new services, building tests using <b><i>JUnit</i></b>, <b><i>Mockito</i></b> and <b><i>Selenium</i></b>, daily contact directly with  " +
+            "clients around South America and using <b><i>Jira</i></b> as <b><i>Agile</i></b> tool;<p> I had also been part of a <b><i>Back-End</i></b>  " +
+            "integration team for the <b><i>e-commerce</i></b> systems in a high-availability environment, using different technologies  " +
+            "such as <b><i>SOAP</i></b>, <b><i>REST</i></b>, <b><i>SFTP</i></b> and <b><i>Proxy</i></b>.</p>"
+        },
         {
             "company" : "Infosys / British Petroleum / Devon Energy ",
             "role" : "Software Engineer",
