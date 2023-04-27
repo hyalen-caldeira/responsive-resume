@@ -616,6 +616,38 @@ header {
     border-left-color:#e5e4e4;
 }
 /*----------------------------------------------------
+ 10. Certificates Style
+------------------------------------------------------*/
+.certificate {
+    /* background:#2bb3dd; */
+    width: 100%;
+    /* padding: 50px 0; */
+    color: #fff;
+    background: url(../images/download.jpg) repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    height: 600px;
+}
+.certificate .container {
+    padding-top:85px;
+    padding-bottom:90px;
+}
+.certificate .heading p {
+    padding-bottom:41px;
+}
+.certificate h4 {
+    font-weight:700;
+}
+.content-section {
+    padding-top: 100px;
+}
+.top40{
+	margin-top: 40px;
+}
+/*----------------------------------------------------
  10. Portfolio Style
 ------------------------------------------------------*/
 .portfolio {

@@ -257,18 +257,51 @@ var education = {
             "dateConclusion" : "2000",
             "description" : ""
         }
-    ]/*,
-    "otherCourses" : [
-        {},
-        {}
     ],
-    "certified" : [
+    /*"otherCourses" : [
         {},
         {}
-    ]*/
+    ],*/
+    "certificates" : [
+        {
+            "certificate" : "AWS Developer Associate",
+            "issued" : "January 01, 2023",
+            "expiresOn" : "Dezember 31, 2023",
+            "path" : "https://www.credly.com/badges/719d809b-6af8-45ce-b473-3bc0455c7d42/public_url",
+            "image" : "images/aws-certified-developer-associate-138.png"
+        },
+        {
+            "certificate" : "AWS SysOps Administration",
+            "issued" : "January 01, 2023",
+            "expiresOn" : "Dezember 31, 2023",
+            "path" : "https://www.credly.com/badges/ab89ccf8-8ea3-4735-ac2d-2b6bc1daea44/public_url",
+            "image" : "images/aws-certified-sysops-administrator-associate-138.png"
+        },
+        {
+            "certificate" : "Kubernetes Application Developer",
+            "issued" : "January 01, 2023",
+            "expiresOn" : "Dezember 31, 2023",
+            "path" : "https://www.credly.com/badges/0ebefdcc-8c1a-4545-91c3-1c6b1d97da07/public_url",
+            "image" : "images/ckad-certified-kubernetes-application-developer-138.png"
+        },
+        {
+            "certificate" : "Terraform Associate",
+            "issued" : "January 01, 2023",
+            "expiresOn" : "Dezember 31, 2023",
+            "path" : "https://www.credly.com/badges/e3823e4e-4880-42c0-99f0-48f21b30186d/public_url",
+            "image" : "images/hashicorp-certified-terraform-associate-140-2.png"
+        },
+        {
+            "certificate" : "Cloud Foundry Certified Developer",
+            "issued" : "January 01, 2023",
+            "expiresOn" : "Dezember 31, 2023",
+            "path" : "https://www.credly.com/badges/c43176ff-f7a0-45f5-b362-4bf7f9958635/public_url",
+            "image" : "images/cfcd-cloud-foundry-certified-developer-138.png"
+        }
+    ]
 };
 
-education.display = function() {
+education.displaySchool = function() {
     if (!this.schools.length)
         return;
 
@@ -299,5 +332,37 @@ education.display = function() {
     }
 }
 
+education.displayCertificate = function() {
+    if (!this.certificates.length)
+        return;
+
+    var frmtTitle = htmlTitle.replace("%data%", CERTIFICATE_TITLE);
+    var frmtTitleDescription = htmlTitleDescription.replace("%data%", CERTIFICATE_TITLE_DESCRIPTION);
+
+    $("#certificate .container").append(htmlHeadStart);
+    $("#certificate .heading").append(frmtTitle);
+    $("#certificate .heading").append(frmtTitleDescription);
+    $("#certificate .heading").append('<div class="col-lg-12"></div>');
+
+    for (var key in this.certificates) {
+        frmtPath = htmlPathCertificate.replace("%data%", this.certificates[key].path);
+        frmtImage = htmlImageCertificate.replace("%data%", this.certificates[key].image);
+        frmtImage = frmtImage.replace("%description%", this.certificates[key].certificate);
+
+        console.log("Here " + frmtPath);
+        console.log("And Here " + frmtImage);
+
+        if (key == 0 || key == 3 || key == 6) {
+            $("#certificate .col-lg-12").append(htmlRowCertificate);
+            $("#certificate .col-lg-12").append("<p></p>");
+        }
+
+        $("#certificate .row:last").append(htmlColumnKeyCertificate);
+        $("#certificate .col-sm-4:last").append(frmtPath);
+        $("#certificate .path:last").append(frmtImage);
+    }
+}
+
 work.display();
-education.display();
+education.displaySchool();
+education.displayCertificate();

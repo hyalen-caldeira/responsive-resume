@@ -4,6 +4,9 @@ var WORK_TITLE_DESCRIPTION = "Some of my previous associations";
 var EDUCATION_TITLE = "Education & Diplomas";
 var EDUCATION_TITLE_DESCRIPTION = "What I have done in my academic career";
 
+var CERTIFICATE_TITLE = "Certificates";
+var CERTIFICATE_TITLE_DESCRIPTION = "Showcase of all my certificates";
+
 var htmlHeadStart = '<div class="heading"></div>';
 var htmlTitle = '<h2>%data%</h2>';
 var htmlTitleDescription = '<p>%data%</p>';
@@ -23,3 +26,9 @@ var htmlDegree = '<h4>%data%</h4>';
 var htmlCollege = '<h5>%data%</h5>';
 
 var htmlDetail = '<div  class="justify"><p>%data%</p></div>'
+
+// Certificate
+var htmlRowCertificate = '<div class="row top40"></div>';
+var htmlColumnKeyCertificate = '<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"></div>';
+var htmlPathCertificate = '<a class="path" href="%data%" target="_blank">';
+var htmlImageCertificate = '<img src="%data%" alt="%description%">';

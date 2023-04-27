@@ -35,11 +35,12 @@ jQuery(function($) {
       parts: {
         0: 'page-top',
         1: 'aboutme',
-        2: 'technical',
-        3: 'experience',
-        4: 'education',
-        5: 'portfolio',
-        6: 'contact'
+        2: 'experience',
+        3: 'technical',
+        4: 'certificate',
+        5: 'education',
+        6: 'portfolio',
+        7: 'contact'
       },
       itemClass: 'menuItem',
       itemHover: 'active',
@@ -64,4 +65,38 @@ jQuery(function($) {
     $( ".navbar-collapse" ).removeClass( "hideClass" );
   });
 
+});
+
+// Pie Chart
+// for skill chat jquary
+$(document).ready(function(e) {
+  //var windowBottom = $(window).height();
+  var index=0;
+  $(document).scroll(function(){
+    var top = $('.technical').height()-$(window).scrollTop();
+    console.log(top)
+    // This make pie move when you hit this position on the page after scrolling
+    if(top<-2500){
+      if(index==0){	
+        
+        $('.chart').easyPieChart({
+          easing: 'easeOutBounce',
+          onStep: function(from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+          }
+        });
+        
+      }
+      index++;
+    }
+  })
+  //console.log(nagativeValue)
+  });
+
+  // chart loding
+$(window).load(function() {
+	var chart = window.chart = $('.chart').data('easyPieChart');
+	$('.js_update').on('click', function() {
+		chart.update(Math.random()*100);
+	});
 });
