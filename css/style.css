@@ -629,7 +629,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     position: relative;
-    height: 600px;
+    /* height: 600px; */
 }
 .certificate .container {
     padding-top:85px;
