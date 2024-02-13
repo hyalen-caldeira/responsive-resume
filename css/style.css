@@ -344,6 +344,26 @@ header {
 .navbar-wrapper .container {
     padding:0px;
 }
+.rosso {
+    color: #e74c3c;
+    font-family: 'Open Sans', sans-serif;
+    font-size:36px;
+    line-height:19px;
+    padding-bottom:0px;
+    font-weight:300;
+    text-transform:uppercase;
+    margin:0px;
+}
+.rosso-small {
+    color: #e74c3c;
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    line-height:38px;
+    padding-bottom:0px;
+    font-weight:300;
+    text-transform:uppercase;
+    margin:0px;
+}
 .navbar-collapse {
     padding:0;
 }

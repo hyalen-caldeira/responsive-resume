@@ -2,37 +2,59 @@ var work = {
     "jobs" : [
         {
             "company" : "Accenture",
-            "role" : "Software Engineer",
+            "role" : "Full Stack Engineering Manager",
             "location" : "Dublin, OH",
             "dateIni" : "Mar, 2019",
             "dateEnd" : "Current",
             "description" : 
-                "<p>Consulted some big companies as part of its <b><i>Full Stack Engineer</i></b> & <b><i>Cloud</i></b> team. Built <b><i>Micro-Frontend</i></b> " + 
-                "applications with <b><i>Java</i></b>, <b><i>Spring Boot</i></b> and <b><i>Angular</i></b> to run on top of legacy systems, extracting " + 
-                "existent functionalities and/or implementing new ones. Worked as a <b><i>Full-Stack Engineer</i></b>, designing features, building " + 
-                "<b><i>RESTful APIs</i></b>, migrating legacy systems to the new <b><i>Microservice</i></b>/<b><i>Micro-Frontend</i></b> " + 
-                "architecture, creating and executing <b><i>Unit Tests</i></b>;</p>" +
-                
-                "<p>Actively helping with internal knowledge dissemination, promoting internal technical events, mentoring " + 
-                "<b><i>Java</i></b>/<b><i>Spring Boot</i></b> and <b><i>Angular</i></b> apprentices, writing blog posts for Accenture Code's community, " + 
-                "developing internal projects to fill in AC's necessities and trying out new technologies;</p>" + 
-                
-                "<p>Acted as an <b><i>AWS Cloud Software Engineer</i></b> to innovate a service that enhances a big tech and entertainment company " + 
-                "(in partnership with a large bank) customers delivery experience;</p>" +
-                
-                "<p><b><i>DevOps</i></b> & <b><i>Continuous Integration Engineer</i></b> for internal, regional and international projects. I bring projects " + 
-                "to comply with the latest <b><i>Continuous Integration</i></b> and <b><i>Continuous Delivery</i></b> practices.</p>" +
-                
-                "<p><b><i>Key achievement</i></b>: Responsible for maintaining and developing new features for the company's main website. " + 
-                "Contributed to migrate <b><i>Monolithics</i></b> applications to <b><i>Microservice</i></b> and <b><i>Cloud</i></b> architecture. Delivered apps with 100% on-time record and " + 
-                "only minimal updates, following <b><i>Agile</i></b> methodologies and applying <b><i>XP</i></b> best practices. Acted as an <b><i>Anchor</i></b> helping new Engineers to increase " + 
-                "their skills and ensuring that they follow best development practices.</p>" +
-                
-                "<p><b><i>Skills: Java, Spring Boot, TypeScript, JavaScript, Angular, Jasmine/Karma, Git, RESTful, Agile, CI/CD</i></b></p>"
+                `<p><span class=\"rosso-small\">→</span> <b><i>Bank Client</b></i> (in partnership with an <b><i>Entertainment Company</b></i>) As a <b><i>Integration Specialist</b></i> & <b><i>Data Engineer</b></i>
+                <br><span class=\"rosso\">.</span> Wrote <b><i>Python</b></i> scripts to perform complex data transformations and processing logic  
+                within the <b><i>ETL</b></i> pipeline; Leveraged <b><i>Python</b></i> libraries such as <b><i>Pandas</b></i>, <b><i>NumPy</b></i>, <b><i>PySpark</b></i> for efficient data manipulation and analysis;
+                                
+                <br><span class=\"rosso\">.</span> Developed <b><i>SAP CAP</b></i> applications deployed on <b><i>SAP BTP</b></i> leveraging event-driven architecture to respond dynamically to real-time events and business triggers.  
+                The application was responsible for analyzing data available in folders, enabling efficient data ingestion, transformation, and integration with downstream systems;
+                                
+                <br><span class=\"rosso\">.</span> Developed <b><i>ETL</b></i> pipelines using <b><i>AWS Glue</b></i> to extract data from various sources,  
+                transform it according to business requirements, and load it into target destinations; Implemented data cataloging and schema inference features of <b><i>AWS Glue</b></i> for  
+                metadata management and schema evolution;  
+
+                <br><span class=\"rosso\">.</span> Created <b><i>AWS Lambda Functions</b></i> to execute  
+                specific tasks within the <b><i>ETL</b></i> pipeline, such as data validation, enrichment and aggregation; Orchestrated <b><i>Lambda Functions</b></i> as part of serverless  
+                workflows for parallel processing and scalability;  
+                                
+                <br><span class=\"rosso\">.</span> Designed and implemented workflows using  
+                <b><i>AWS Step Functions</b></i> to coordinate the execution of individual <b><i>ETL</b></i> steps, including <b><i>Lambda Functions</b></i> and <b><i>Glue Jobs</b></i>;  
+                Defined state transitions and error handling mechanisms within <b><i>Step Functions</b></i> to ensure robust and fault-tolerant <b><i>ETL</b></i> processes.</p>
+                                
+                <p><span class=\"rosso-small\">→</span> <b><i>Insurance Client</b></i> – As a <b><i>SRE</b></i> (Site Reliability Engineer) & <b><i>Full Stack Engineer</b></i>
+                <br><span class=\"rosso\">.</span> Designed and developed an auto-healing application  
+                using <b><i>Java/Spring Boot</b></i> and <b><i>Angular</b></i>, eliminating manual tasks associated with error detection and resolution through specific <b><i>API</b></i> access.  
+                The application is fully customizable, enabling users to add new functionalities based on detected errors; 
+                                
+                <br><span class=\"rosso\">.</span> Created dashboards on <b><i>Grafana</b></i>  
+                to monitor the overall system health, including metrics such as <b><i>CPU/Memory</b></i> utilization, <b><i>Kubernetes</b></i> PODs restarts, system peak  
+                utilization within a specified time range, error rates, among other parameters; 
+                                
+                <br><span class=\"rosso\">.</span> Monitored <b><i>Azure EKS</b></i> for <b><i>Kubernetes</b></i> issues, performed  
+                scaling adjustments for deployments as needed, updated <b><i>Kubernetes</b></i> deployment configurations to better address the system's requirements.;
+                                
+                <br><span class=\"rosso\">.</span> Oversaw deployment processes and promptly address any issues that arose during the monitoring phase. <b><i>Terraform</b></i>, <b><i>Helm</b></i> and <b><i>Kubernetes</b></i>  
+                maintenance. Utilized <b><i>Splunk</b></i> queries, <b><i>Grafana</b></i> dashboards and <b><i>Camunda</b></i> for comprehensive system monitoring;
+                                
+                <br><span class=\"rosso\">.</span> Integrated monitoring solutions using <b><i>Prometheus</b></i> to track system performance and detect issues.</p>​
+                                
+                <p><span class=\"rosso-small\">→</span> <b><i>International Food Chain Client</b></i> – As a <b><i>DevOps Engineer</b></i>
+                <br><span class=\"rosso\">.</span> Utilized <b><i>Terraform</b></i> to provision and manage <b><i>AWS</b></i> resources in a reproducible and automated manner;
+                <br><span class=\"rosso\">.</span> Defined infrastructure configurations as code, ensuring consistency and version control;
+                <br><span class=\"rosso\">.</span> Established and maintained <b><i>CI/CD</b></i> pipelines for automated building, testing, and deployment of applications. Integrated version control systems, such as <b><i>Git</b></i> with <b><i>GitLab CI</b></i>;
+                <br><span class=\"rosso\">.</span> Integrated monitoring solutions with <b><i>Prometheus</b></i> to track system performance and detect issues;
+                <br><span class=\"rosso\">.</span> Implemented centralized logging systems such as <b><i>ELK Stack</b></i> (<b><i>Elasticsearch</b></i>, <b><i>Grafana</b></i>, <b><i>Splunk</b></i>) for efficient log analysis;
+                <br><span class=\"rosso\">.</span> Implemented/configured <b><i>AWS EKS</b></i> (Elastic Kubernetes Service) auto-scaling features to dynamically adjust resources based on demand.;  
+                Utilized <b><i>AWS</b></i> Cost Explorer or similar tools to optimize resource allocation and reduce costs.</p>"`
         },
         {
             "company" : "cFive",
-            "role" : "Software Engineer",
+            "role" : "Senior Software Engineer",
             "location" : "Laguna Hills, CA",
             "dateIni" : "Jun, 2018",
             "dateEnd" : "Mar, 2019",
@@ -42,9 +64,7 @@ var work = {
                 "The system is accessed by government departments as FBI, Police Department, among others. This project is an " +
                 "implementation of a <b><i>SAML 2.0 Service Provider</i></b>, completely built on <b><i>Spring Framework</i></b>. A web solution devised " +
                 "for Federated Authentication by integrating <b><i>Spring Boot</i></b> and Spring <b><i>Security SAML</i></b>. The configuration has been " +
-                "completely defined using <b><i>Java</i></b> annotations (no XML).</p>" +
-
-                "<p><b><i>Full Stack Developer</i></b> (Java, Jersey, JPA, React/Next, TypeScript, Bootstrap, HTML and CSS).</p>"
+                "completely defined using <b><i>Java</i></b> annotations (no XML).</p>" 
         },
         {
             "company" : "Conversant",
@@ -64,12 +84,7 @@ var work = {
                 "them without an application rebuild or restart.</p>" +
 
                 "<p><b><i>Hazelcast</i></b> and <b><i>Spring AOP</i></b> – Implemented a distributed cache to lock correlated services being treated at the same " +
-                "time among different servers.</p>" +
-
-                "<p>Our tests are done in <b><i>Groovy</i></b> with <b><i>Spock</i></b>, but eventually I added the use of an in-memory <b><i>H2</i></b> database for testing " +
-                "models rapidly and without need for a network connection as we would require with integration tests; Other " +
-                "responsibilities include <b><i>Managing Releases</i></b>, improving release methods/tools and maintaining an old <b><i>Java</i></b> based " +
-                "project that keeps data synchronized between our local database and an external data store.</p>"
+                "time among different servers.</p>"
         }/*,
         {
             "company" : "B2W Digital",
