@@ -77,15 +77,17 @@ $(document).ready(function(e) {
     console.log(top)
     // This make pie move when you hit this position on the page after scrolling
     if(top<-2500){
-      if(index==0){	
-        
-        $('.chart').easyPieChart({
-          easing: 'easeOutBounce',
-          onStep: function(from, to, percent) {
-            $(this.el).find('.percent').text(Math.round(percent));
-          }
-        });
-        
+      if(index==0){
+
+        setTimeout(function() {
+          $('.chart').easyPieChart({
+            easing: 'easeOutBounce',
+            onStep: function(from, to, percent) {
+              $(this.el).find('.percent').text(Math.round(percent));
+            }
+          });
+        }, 500);
+
       }
       index++;
     }
