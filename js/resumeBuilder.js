@@ -2,69 +2,58 @@ var work = {
     "jobs" : [
         {
             "company" : "Accenture",
-            "role" : "Full Stack Engineering Manager",
-            "location" : "Dublin, OH",
-            "dateIni" : "Mar, 2019",
-            "dateEnd" : "Current",
-            "description" : 
-                `<p><span class=\"rosso-small\">→</span> <b><i>Bank Client</b></i> (in partnership with an <b><i>Entertainment Company</b></i>) As a <b><i>Integration Specialist</b></i> & <b><i>Data Engineer</b></i>
-                <br><span class=\"rosso\">.</span> Wrote <b><i>Python</b></i> scripts to perform complex data transformations and processing logic  
-                within the <b><i>ETL</b></i> pipeline; Leveraged <b><i>Python</b></i> libraries such as <b><i>Pandas</b></i>, <b><i>NumPy</b></i>, <b><i>PySpark</b></i> for efficient data manipulation and analysis;
-                                
-                <br><span class=\"rosso\">.</span> Developed <b><i>SAP CAP</b></i> applications deployed on <b><i>SAP BTP</b></i> leveraging event-driven architecture to respond dynamically to real-time events and business triggers.  
-                The application was responsible for analyzing data available in folders, enabling efficient data ingestion, transformation, and integration with downstream systems;
-                                
-                <br><span class=\"rosso\">.</span> Developed <b><i>ETL</b></i> pipelines using <b><i>AWS Glue</b></i> to extract data from various sources,  
-                transform it according to business requirements, and load it into target destinations; Implemented data cataloging and schema inference features of <b><i>AWS Glue</b></i> for  
-                metadata management and schema evolution;  
+            "role" : "Full Stack Engineer Manager • AI Architect • SRE & Cloud Engineering",
+            "location" : "Columbus, Ohio",
+            "dateIni" : "Jan, 2023",
+            "dateEnd" : "Present",
+            "description" :
+                `<p>Leading enterprise AI platforms, multi-agent systems, and code generation solutions — I architect and deliver the company's AI solutions - building multi-agent systems, MCP platforms, and LLM-driven workflows from concept to production. My work spans end-to-end AI system design, cloud infrastructure, SRE automation, and distributed applications. I lead cross-functional teams, mentor engineers, and drive technical excellence across client engagements.</p>
 
-                <br><span class=\"rosso\">.</span> Created <b><i>AWS Lambda Functions</b></i> to execute  
-                specific tasks within the <b><i>ETL</b></i> pipeline, such as data validation, enrichment and aggregation; Orchestrated <b><i>Lambda Functions</b></i> as part of serverless  
-                workflows for parallel processing and scalability;  
-                                
-                <br><span class=\"rosso\">.</span> Designed and implemented workflows using  
-                <b><i>AWS Step Functions</b></i> to coordinate the execution of individual <b><i>ETL</b></i> steps, including <b><i>Lambda Functions</b></i> and <b><i>Glue Jobs</b></i>;  
-                Defined state transitions and error handling mechanisms within <b><i>Step Functions</b></i> to ensure robust and fault-tolerant <b><i>ETL</b></i> processes.</p>
-                                
-                <p><span class=\"rosso-small\">→</span> <b><i>Insurance Client</b></i> – As a <b><i>SRE</b></i> (Site Reliability Engineer) & <b><i>Full Stack Engineer</b></i>
-                <br><span class=\"rosso\">.</span> Designed and developed an auto-healing application  
-                using <b><i>Java/Spring Boot</b></i> and <b><i>Angular</b></i>, eliminating manual tasks associated with error detection and resolution through specific <b><i>API</b></i> access.  
-                The application is fully customizable, enabling users to add new functionalities based on detected errors; 
-                                
-                <br><span class=\"rosso\">.</span> Created dashboards on <b><i>Grafana</b></i>  
-                to monitor the overall system health, including metrics such as <b><i>CPU/Memory</b></i> utilization, <b><i>Kubernetes</b></i> PODs restarts, system peak  
-                utilization within a specified time range, error rates, among other parameters; 
-                                
-                <br><span class=\"rosso\">.</span> Monitored <b><i>Azure EKS</b></i> for <b><i>Kubernetes</b></i> issues, performed  
-                scaling adjustments for deployments as needed, updated <b><i>Kubernetes</b></i> deployment configurations to better address the system's requirements.;
-                                
-                <br><span class=\"rosso\">.</span> Oversaw deployment processes and promptly address any issues that arose during the monitoring phase. <b><i>Terraform</b></i>, <b><i>Helm</b></i> and <b><i>Kubernetes</b></i>  
-                maintenance. Utilized <b><i>Splunk</b></i> queries, <b><i>Grafana</b></i> dashboards and <b><i>Camunda</b></i> for comprehensive system monitoring;
-                                
-                <br><span class=\"rosso\">.</span> Integrated monitoring solutions using <b><i>Prometheus</b></i> to track system performance and detect issues.</p>​
-                                
-                <p><span class=\"rosso-small\">→</span> <b><i>International Food Chain Client</b></i> – As a <b><i>DevOps Engineer</b></i>
-                <br><span class=\"rosso\">.</span> Utilized <b><i>Terraform</b></i> to provision and manage <b><i>AWS</b></i> resources in a reproducible and automated manner;
-                <br><span class=\"rosso\">.</span> Defined infrastructure configurations as code, ensuring consistency and version control;
-                <br><span class=\"rosso\">.</span> Established and maintained <b><i>CI/CD</b></i> pipelines for automated building, testing, and deployment of applications. Integrated version control systems, such as <b><i>Git</b></i> with <b><i>GitLab CI</b></i>;
-                <br><span class=\"rosso\">.</span> Integrated monitoring solutions with <b><i>Prometheus</b></i> to track system performance and detect issues;
-                <br><span class=\"rosso\">.</span> Implemented centralized logging systems such as <b><i>ELK Stack</b></i> (<b><i>Elasticsearch</b></i>, <b><i>Grafana</b></i>, <b><i>Splunk</b></i>) for efficient log analysis;
-                <br><span class=\"rosso\">.</span> Implemented/configured <b><i>AWS EKS</b></i> (Elastic Kubernetes Service) auto-scaling features to dynamically adjust resources based on demand.;  
-                Utilized <b><i>AWS</b></i> Cost Explorer or similar tools to optimize resource allocation and reduce costs.</p>"`
+                <p><b><i>Key Projects & Contributions:</b></i><br>
+                <br><span class="rosso-small">•</span> <b><i>Multi-Agent Code Generation Platform</b></i> - Built an AI-powered system using <b><i>Python</b></i>, <b><i>LangGraph</b></i>, <b><i>LangChain</b></i>, and <b><i>MCP</b></i> that automates software creation through dynamic workflow routing. Clients configure agents, prompts, tasks, and routing via JSON, supporting reusable nodes, state management, and tool integration.
+                <br><span class="rosso-small">•</span> <b><i>Model Context Protocol (MCP) Blueprint</b></i> - Architected a company-wide MCP foundation now used across multiple teams and clients. The blueprint provides configurable Tools, Prompts, and Resources with support for SSE, Streamable HTTP, and STDIO transports, standardizing AI application architecture.
+                <br><span class="rosso-small">•</span> <b><i>BPMN Workflow Documentation Tool</b></i> - Developed an AI solution that reverse-engineers XML-based BPMN workflows for cross-application integration. The tool analyzes process logic and auto-generates documentation, user stories, and development artifacts.
+                <br><span class="rosso-small">•</span> <b><i>AI Engineering Standards</b></i> - Established prompt engineering patterns, context management strategies, and design principles for multi-agent orchestration, enabling modular, maintainable LLM-driven workflows.</p>
+
+                <p><b><i>Impact:</b></i> Transformed the company's AI capabilities from proof-of-concept to production-ready platforms. Mentored engineers, established code review practices that improved solution quality by 35%, and created reusable frameworks that accelerated delivery across client projects.</p>`
         },
         {
-            "company" : "cFive",
+            "company" : "Accenture",
+            "role" : "Full Stack Engineer Associate Manager • Cloud Architecture • DevOps/SRE • SAP BTP Integration",
+            "location" : "Columbus, Ohio, United States",
+            "dateIni" : "Mar, 2019",
+            "dateEnd" : "Dec, 2022",
+            "description" :
+                `<p>Led full-stack development and DevOps/SRE initiatives across multiple enterprise clients, delivering scalable cloud platforms, self-healing infrastructure, and SAP integrations. Designed resilient architectures, implemented automation workflows, and mentored engineering teams to drive high-quality delivery.</p>
+
+                <p><b><i>Key Projects & Contributions:</b></i><br>
+                <br><span class="rosso-small">•</span> <b><i>Self-Healing Infrastructure Platform</b></i> - Built an automated recovery system using <b><i>Java/Spring Boot</b></i> and <b><i>Angular</b></i> with <b><i>Grafana/Splunk</b></i> for real-time monitoring, reducing incident response time and minimizing manual intervention.
+                <br><span class="rosso-small">•</span> <b><i>Kubernetes Optimization (AKS/EKS)</b></i> - Enhanced cluster reliability through optimized configurations, blue-green rollout strategies, and deployment automation.
+                <br><span class="rosso-small">•</span> <b><i>Infrastructure as Code</b></i> - Developed <b><i>Terraform</b></i>-based IaC modules to automate provisioning of <b><i>AWS</b></i> services such as EC2, EKS, VPC, security groups, load balancers, and others.
+                <br><span class="rosso-small">•</span> <b><i>SAP BTP Integration & Event-Driven Architecture</b></i> - Designed <b><i>CAP/CPI</b></i> solutions for real-time data ingestion, transformation, and analysis, enabling seamless enterprise system integration and event processing.
+                <br><span class="rosso-small">•</span> <b><i>CI/CD Pipeline Engineering</b></i> - Built <b><i>GitLab</b></i> pipelines automating builds, tests, and deployments across environments, increasing delivery speed and reducing production defects.
+                <br><span class="rosso-small">•</span> <b><i>Observability & Monitoring</b></i> - Implemented <b><i>Prometheus</b></i> metrics, <b><i>ELK stack</b></i> logging, and distributed tracing to accelerate incident detection and streamline root-cause analysis.
+                <br><span class="rosso-small">•</span> <b><i>Cloud Cost Optimization</b></i> - Configured <b><i>AWS EKS</b></i> auto-scaling and led cost reduction initiatives using <b><i>AWS Cost Explorer</b></i>, cutting infrastructure spend while maintaining performance.</p>
+
+                <p><b><i>Impact:</b></i> Delivered production-grade DevOps patterns and end-to-end observability across <b><i>AWS</b></i> and <b><i>SAP BTP</b></i> platforms. Enabled faster release cycles, reduced system downtime, and established SRE best practices adopted across 4+ client engagements.</p>`
+        },
+        {
+            "company" : "cFive Solutions",
             "role" : "Senior Software Engineer",
             "location" : "Laguna Hills, CA",
             "dateIni" : "Jun, 2018",
             "dateEnd" : "Mar, 2019",
-            "description" : 
-                "<p><b><i>Java, Spring Security SAML and Spring Boot</i></b> - Designed, architected and developed a security model " +
-                "(through <b><i>Microservice Architecture</i></b>) to allow access to the LA County main system using Microsoft AAD/MIM. " +
-                "The system is accessed by government departments as FBI, Police Department, among others. This project is an " +
-                "implementation of a <b><i>SAML 2.0 Service Provider</i></b>, completely built on <b><i>Spring Framework</i></b>. A web solution devised " +
-                "for Federated Authentication by integrating <b><i>Spring Boot</i></b> and Spring <b><i>Security SAML</i></b>. The configuration has been " +
-                "completely defined using <b><i>Java</i></b> annotations (no XML).</p>" 
+            "description" :
+                `<p>Security Architecture & Federated Authentication Systems — As a Senior Software Engineer, I designed and delivered secure, enterprise-grade authentication solutions for government agencies, focusing on identity management, access control, and high-availability distributed systems. I architected scalable security components, modernized legacy authentication flows, and ensured compliance with federal security standards.</p>
+
+                <p><b><i>Key Projects & Contributions:</b></i><br>
+                <br><span class="rosso-small">•</span> Architected and developed a <b><i>SAML 2.0</b></i>–based security platform using <b><i>Java</b></i>, <b><i>Spring Boot</b></i>, and <b><i>Spring Security SAML</b></i> to enable secure, federated authentication for the Los Angeles County main system, accessed by agencies such as the FBI and local law enforcement.
+                <br><span class="rosso-small">•</span> Designed a <b><i>microservices-based</b></i> authentication model leveraging <b><i>Microsoft AAD/MIM</b></i> for identity management, ensuring high availability, scalability, and strict security compliance for government environments.
+                <br><span class="rosso-small">•</span> Implemented a <b><i>Spring Boot Service Provider</b></i> for <b><i>SAML 2.0</b></i>, fully annotation-driven (no XML), improving maintainability and eliminating legacy configuration overhead.
+                <br><span class="rosso-small">•</span> Built end-to-end authentication flows, integrating <b><i>SSO</b></i>, metadata handling, certificate validation, and secure token exchange for cross-agency access.
+                <br><span class="rosso-small">•</span> Collaborated with security teams and government stakeholders to align the solution with federal authentication and privacy standards.</p>
+
+                <p><b><i>Impact:</b></i> Engineered a mission-critical authentication architecture adopted across multiple government agencies, significantly improving security, interoperability, and cross-department access while modernizing legacy authentication workflows.</p>`
         },
         {
             "company" : "Conversant",
@@ -72,19 +61,16 @@ var work = {
             "location" : "Westlake Village, CA",
             "dateIni" : "Jun, 2017",
             "dateEnd" : "Jan, 2018",
-            "description" : 
-                "<p><b><i>Java, Spring Boot, Spring MVC, RESTful</i></b> and <b><i>Hibernate</i></b> – Write code in an <b><i>Agile</i></b> environment for an online Ad Network " +
-                "company’s <b><i>Java</i></b> API. Add server-side support for new SaaS UI features, address bug tickets in legacy system with focus " +
-                "on <b><i>TDD</i></b> and delivered quality projects that have been well-received.</p>" +
+            "description" :
+                `<p>Delivered backend engineering for a high-traffic Ad Network SaaS platform, modernizing legacy systems, building scalable APIs, and implementing distributed architecture solutions. Focused on feature development, system reliability, and operational efficiency using <b><i>Java/Spring Boot</b></i> and cloud-native patterns.</p>
 
-                "<p><b><i>Spring Cloud</i></b> – Implemented from scratch a central config server where all configurable parameters of applications " + 
-                "are written version controlled. The benefit of a central config server is that if we change a property for an app, " +
-                "it can reflect that on the fly without redeploying the app. The solution maintains all properties of all environments " +
-                "(development, staging and production), and if any properties are changed, it will pick up the changes and reflect " +
-                "them without an application rebuild or restart.</p>" +
+                <p><b><i>Key Projects & Contributions:</b></i><br>
+                <br><span class="rosso-small">•</span> Developed and maintained <b><i>Java/Spring Boot</b></i> RESTful APIs for an online Ad Network platform, delivering new SaaS features, modernizing legacy components, and resolving bugs using <b><i>TDD</b></i> and <b><i>Agile</b></i> practices.
+                <br><span class="rosso-small">•</span> Built a <b><i>Spring Cloud Config Server</b></i> from scratch, enabling centralized, version-controlled configuration management across development, staging, and production environments. Configuration updates could be applied dynamically without application redeployment, improving operational efficiency and reducing downtime.
+                <br><span class="rosso-small">•</span> Implemented a distributed caching solution using <b><i>Hazelcast</b></i> and <b><i>Spring AOP</b></i>, preventing processing of correlated service requests across multiple concurrent servers and enhancing system consistency and throughput.
+                <br><span class="rosso-small">•</span> Collaborated with cross-functional teams to ensure high-quality releases, improve system reliability, and accelerate feature delivery in a fast-paced SaaS environment.</p>
 
-                "<p><b><i>Hazelcast</i></b> and <b><i>Spring AOP</i></b> – Implemented a distributed cache to lock correlated services being treated at the same " +
-                "time among different servers.</p>"
+                <p><b><i>Impact:</b></i> Designed and implemented a distributed caching mechanism with <b><i>Hazelcast</b></i> that eliminated concurrency conflicts across multiple servers, increasing system throughput and improving user experience for high-traffic Ad Network operations • Delivered a zero-downtime, dynamic configuration architecture using <b><i>Spring Cloud Config</b></i>, enabling on-the-fly updates across all environments and significantly improving deployment efficiency and system reliability.</p>`
         }/*,
         {
             "company" : "B2W Digital",
