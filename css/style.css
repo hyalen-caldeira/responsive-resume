@@ -8,10 +8,10 @@
 }
 
 p span{
-    /* color: #6F6F72!important; */
+    color: #fff;
     font-style: oblique;
-    font-weight:300;
-    font-size:16px;
+    font-weight:700;
+    font-size:14px;
 }
 
 .justify{ text-align: justify!important; }
@@ -498,17 +498,18 @@ header {
 }
 .technical .skills h4 {
     font-weight:700;
-    text-transform:uppercase;
+    text-transform:none;
+    text-align:center;
 }
 .skilBg {
     background:url(../images/skills.png) no-repeat 0 0;
 }
 .chart {
     position: relative;
-    display: inline-block;
+    display: block;
     width: 152px;
     height: 152px;
-    margin-bottom: 26px;
+    margin: 0 auto 26px auto;
     text-align: center;
 }
 .chart canvas {
