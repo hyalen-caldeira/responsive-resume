@@ -86,7 +86,7 @@ $(document).ready(function(e) {
               $(this.el).find('.percent').text(Math.round(percent));
             }
           });
-        }, 500);
+        }, 750);
 
       }
       index++;
