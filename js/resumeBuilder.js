@@ -242,12 +242,6 @@ work.display = function() {
 var education = {
     "schools" : [
         {
-            "school" : "Udacity - Nanodegree",
-            "title" : "React - Fundamentals, Redux and Native",
-            "dateConclusion" : "2017",
-            "description" : ""
-        },
-        {
             "school" : "UFMG - Universidade Federal de Minas Gerais",
             "title" : "Major in Information Technology with Emphasis on Software Engineering",
             "dateConclusion" : "2007",
@@ -264,6 +258,13 @@ var education = {
         {}
     ],*/
     "certificates" : [
+        {
+            "certificate" : "Certified Full Stack FDE - Accenture",
+            "issued" : "January 01, 2024",
+            "expiresOn" : "Dezember 31, 2024",
+            "path" : "https://www.credly.com/badges/efca4836-a999-4d3e-9058-ace21c113412/public_url",
+            "image" : "images/fde-certified-full-stack-138.png"
+        },
         {
             "certificate" : "AWS Developer Associate",
             "issued" : "January 01, 2023",
@@ -316,7 +317,7 @@ education.displaySchool = function() {
     $("#education .heading").append(frmtTitleDescription);
 
     for (var key in this.schools) {
-        frmtDateConclusion = htmlDateFrom.replace("%data%", this.schools[key].dateConclusion);
+        frmtDateConclusion = htmlDateFrom.replace("%data%", '<i class="fa fa-graduation-cap"></i>');
         frmtSchoolName = htmlCompanyName.replace("%data%", this.schools[key].school);
         frmtRole = htmlRole.replace("%data%", this.schools[key].title);
         frmtDetail = htmlDetail.replace("%data%", this.schools[key].description);

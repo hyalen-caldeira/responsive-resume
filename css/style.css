@@ -577,6 +577,10 @@ header {
     -webkit-border-radius: 50%;
     border-radius: 50%;
 }
+.education .workYear .fa {
+    font-size:38px;
+    line-height:40px;
+}
 .arrowpart {
     float:left;
     width:15px;

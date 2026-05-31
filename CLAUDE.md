@@ -22,10 +22,12 @@ No build process, linting, or automated tests exist. Testing is manual browser v
 
 The resume content is separated from presentation:
 
-- **`js/resumeBuilder.js`** - Contains all resume data as JavaScript objects (`work`, `education`, certificates) and renders them into the DOM
-- **`js/helper.js`** - HTML template strings used by resumeBuilder.js for content injection
+- **`js/resumeBuilder.js`** - Contains all resume data as JavaScript objects and renders them into the DOM. Two top-level objects: `work` (with a `jobs` array) and `education` (with both `schools` and `certificates` arrays). Each object has `display*()` methods that build DOM nodes via jQuery `.append()` and inject `%data%`/`%description%` placeholders into the helper templates. The file calls `work.display()`, `education.displaySchool()`, and `education.displayCertificate()` at the bottom, so it runs immediately on load.
+- **`js/helper.js`** - HTML template strings (with `%data%` / `%description%` placeholders) consumed by resumeBuilder.js, plus the section title constants.
 
-To update resume content (work experience, education, certificates), edit the data objects in `resumeBuilder.js`.
+To update resume content (work experience, education, certificates), edit the data objects in `resumeBuilder.js`. Note: certificates are part of the `education` object, not separate.
+
+**Script load order matters** (see bottom of `index.html`): `helper.js` must load before `resumeBuilder.js`, since resumeBuilder runs at load time and references the helper template strings. `jquery.js` and `bootstrap.min.js` load first; `jquery.easypiechart.js` loads after.
 
 ### Key JavaScript Files
 
@@ -37,4 +39,8 @@ To update resume content (work experience, education, certificates), edit the da
 
 All content is in `index.html` with sections: Banner → About Me → Experience → Technical Skills → Certificates → Education → Portfolio → Contact
 
-Skill percentages for the pie charts are defined as `data-percent` attributes in `index.html`.
+Skill percentages for the pie charts are defined as `data-percent` attributes on `.chart.skilBg` spans in `index.html`.
+
+### Backup files
+
+`*.orig` files (`index.html.orig`, `js/resumeBuilder.js.orig`, `css/style.css.orig`) are prior versions kept as backups. They are not loaded by the page — do not edit them as if they were live.
